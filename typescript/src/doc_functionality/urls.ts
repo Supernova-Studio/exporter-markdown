@@ -7,7 +7,18 @@ import { firstPageFromTop } from "./lookup"
 // MARK: - URLs
 
 /** Generate markdown path for each documentation page */
-export function pageUrl(page: DocumentationPage, prefix: string | undefined) {
+export function pageUrl(object: DocumentationPage | DocumentationGroup, prefix: string | undefined) {
+
+  let page: DocumentationPage | null = null
+  if (object.type === "Page") {
+    page = object as DocumentationPage
+  } else {
+    page = firstPageFromTop(object as DocumentationGroup)
+  }
+
+  if (!page) {
+    return ""
+  }
 
   let pageSlug = page.userSlug ?? page.slug
   let subpaths: Array<string> = []

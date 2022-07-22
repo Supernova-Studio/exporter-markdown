@@ -1,1 +1,10 @@
-TODO INDEX
+# {{ ds.currentDesignSystem().name }}
+
+Welcome to our design system documentation! Below you will find the entire content of the documentation separated by the main categories. Use this page to navigate and find what you are looking for!
+
+## Content
+
+{[ let contentTree = contentTree(ds.allDocumentationGroups(), ds.allDocumentationPages()) /]}
+{[ for item in contentTree ]}
+{{ offset(item.offset, 4) }}[{{ item.title }}]({{ item.url }})
+{[/]}
