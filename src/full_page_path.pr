@@ -1,0 +1,2 @@
+{* Generate documentation page URL *}
+{{ pageUrl(ds.documentationPageById(pageId), null) }}

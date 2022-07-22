@@ -1,0 +1,25 @@
+{
+    "id": "io.supernova.documentation-markdown",
+    "name": "Documentation",
+    "description": "Markdown Exporter",
+    "author": "Jiri Trecak",
+    "organization": "Supernova",
+    "source_dir": "src",
+    "assets_dir": "assets",
+    "version": "1.0",
+    "usesBrands": false,
+    "config": {
+        "sources": "sources.json",
+        "output": "output.json",
+        "js": "src/js_helpers.js"
+    },
+    "engines": {
+        "pulsar": "1.0.0",
+        "supernova": "1.0.0"
+    },
+    "type": "code",
+    "tags": [
+        "Documentation",
+        "Markdown"
+    ]
+}

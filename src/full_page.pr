@@ -1,0 +1,2 @@
+{* Fetch page detail and convert the page to markdown, then export the markdown *}
+{{ ds.documentationPageToMarkdown(ds.documentationPageById(pageId))}}
