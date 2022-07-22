@@ -6,9 +6,10 @@ Welcome to our design system documentation! Below you will find the entire conte
 
 {[ let contentTree = contentTree(ds.allDocumentationGroups(), ds.allDocumentationPages()) /]}
 {[ for item in contentTree ]}
-{[ if (item.offset < 0 && item.type === "group") ]}
-### [{{ item.title }}]({{ item.url }})
+{[ if (item.offset < 0 && item.type === "group") ]} 
+### {{ item.title }}
+
 {[ else ]}
-{{ offset(" ",item.offset, 2) }}[{{ item.title }}]({{ item.url }})\
+{{ offset(" ",item.offset, 2) }}[{{ item.title }}](.{{ item.url }})\
 {[/]}
 {[/]}
