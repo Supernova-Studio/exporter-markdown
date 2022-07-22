@@ -4,7 +4,7 @@ Welcome to our design system documentation! Below you will find the entire conte
 
 ## Content
 ### [Introduction](/introduction/welcome-to-supernova.md)
-[Welcome to Supernova](/introduction/welcome-to-supernova.md)\
+[Welcome to Supernova](./introduction/welcome-to-supernova.md)\
 [Explore Supernova](/introduction/explore-supernova.md)\
 [Getting started](/introduction/getting-started.md)\
 ### [Design systems](/design-systems/guide-to-design-systems.md)
