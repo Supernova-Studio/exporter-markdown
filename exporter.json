@@ -5,7 +5,6 @@
     "author": "Jiri Trecak",
     "organization": "Supernova",
     "source_dir": "src",
-    "assets_dir": "assets",
     "version": "1.0",
     "usesBrands": false,
     "config": {
