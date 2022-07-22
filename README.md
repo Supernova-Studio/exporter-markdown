@@ -1,24 +1,24 @@
-<img src="https://raw.githubusercontent.com/Supernova-Studio/exporter-documentation/master/readme-icon.png" alt="Supernova Logo" style="max-width:100%;">
+<img src="https://raw.githubusercontent.com/Supernova-Studio/exporter-markdown/master/readme-icon.png" alt="Supernova Logo" style="max-width:100%;">
 
 
 [Supernova](https://supernova.io) is a design system platform that allows you to seamlessly translate your design system data to production-ready code. Supernova works with any platform or tech stack, is used by many developers and organizations around the world, and can help you save time by replacing manual and repetitive tasks that all developers hate. To learn everything Supernova, please check out our [developer documentation](https://developers.supernova.io/).
 
 
-# Documentation Exporter
+# Markdown Exporter
 
 
-The documentation exporter allows you to export static documentation build inside Supernova editor. This exporter and description is currently work in progress.
+The markdown exporter allows you to export static markdown representation of the documentation that you build inside Supernova editor. 
 
 
 ## Installing
 
-In order to make the Supernova HTML preview exporter available for your organization so you can start generating code from your design system, please follow the installation guide in our [developer documentation](https://developers.supernova.io/using-exporters/installing-exporters).
+In order to make the Supernova markdown exporter available for your organization so you can start generating code from your design system, please follow the installation guide in our [developer documentation](https://developers.supernova.io/using-exporters/installing-exporters).
 
 ## Reporting Bugs or Requesting Features
 
 In order to faciliate easy communication and speed up delivery of fixes and features for this exporter, we require everyone to log all issues and feature requests through the issue tracking of this repository. 
 
-Please read through the [existing issues](https://github.com/Supernova-Studio/exporter-documentation/issues) before you open a new issue! It might be that we have already discussed it before. If you are sure your request wasn't mentioned just yet, proceed to [open a new issue](https://github.com/Supernova-Studio/exporter-documentation/issues) and fill in the required information. Thank you!
+Please read through the [existing issues](https://github.com/Supernova-Studio/exporter-markdown/issues) before you open a new issue! It might be that we have already discussed it before. If you are sure your request wasn't mentioned just yet, proceed to [open a new issue](https://github.com/Supernova-Studio/exporter-markdown/issues) and fill in the required information. Thank you!
 
 ## Contributing
 
@@ -41,6 +41,7 @@ This exporter is distributed under the [MIT license](./LICENSE.md). [We absolute
 
 We are developing and maintaining exporters for many major technologies. Here are all the official exporters maintained by Supernova:
 
+- [Documentation Exporter](https://github.com/Supernova-Studio/exporter-documentation)
 - [iOS Exporter](https://github.com/Supernova-Studio/exporter-ios)
 - [iOS Localization Exporter](https://github.com/Supernova-Studio/exporter-ios-localization)
 - [Android Exporter](https://github.com/Supernova-Studio/exporter-android)
