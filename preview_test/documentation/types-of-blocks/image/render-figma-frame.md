@@ -117,5 +117,5 @@ Using the documentation editor
 ---
 
   
-[Embed Figma](../../../documentation/types-of-blocks/embed/figma-file.html), You can also embed Figma files or prototypes as regular embed.  
+[Embed Figma](../../../documentation/types-of-blocks/embed/figma-file.md), You can also embed Figma files or prototypes as regular embed.  
   

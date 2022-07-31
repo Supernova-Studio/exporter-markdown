@@ -111,7 +111,7 @@ In additional to the standard rich text formatting options, you can also change 
 A block is any kind of content you add to the page, such as text, lists, quotes, dividers, or media. You can move blocks around on the page to reorder your information.
 
   
-[![What is a block?](https://studio-assets.supernova.io/design-systems/6475/3d5e42ee-f777-43d0-aa3a-a1739295df61.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1LzNkNWU0MmVlLWY3NzctNDNkMC1hYTNhLWExNzM5Mjk1ZGY2MS5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=jtJdMZlTObnECu3Wbu6Q2awzzvRyBP6HeTNohRM7LfRNp4zwMGUKcEhxwYpNrUDHVSKTQ5iMjuyly8mNavJWWAyidgODZlHRFRWc0U6d7Z29-c0z71VFKAX7N2oXLVpTmAqN76eQALYeojUlb~ffEgU4RDugDTfzBedeb7bk7ybWYqcUYH2J4vpuetHC-cnj0XBasUcptuTsx3R7jQpm81BxvhBXkJbxjczxOgfny6Yn2dglvsyRkCTYRElH-NR5sfbD5OOeEr1sssQQ0VhPPpNwX8zfokRgVnIx0mgyPxjYXlcRvktGmlid-QA9NcGyFe8jyXSmZV99e~34eRjNpw__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)](../documentation/what-is-a-block.html)  
+[![What is a block?](https://studio-assets.supernova.io/design-systems/6475/3d5e42ee-f777-43d0-aa3a-a1739295df61.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1LzNkNWU0MmVlLWY3NzctNDNkMC1hYTNhLWExNzM5Mjk1ZGY2MS5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=jtJdMZlTObnECu3Wbu6Q2awzzvRyBP6HeTNohRM7LfRNp4zwMGUKcEhxwYpNrUDHVSKTQ5iMjuyly8mNavJWWAyidgODZlHRFRWc0U6d7Z29-c0z71VFKAX7N2oXLVpTmAqN76eQALYeojUlb~ffEgU4RDugDTfzBedeb7bk7ybWYqcUYH2J4vpuetHC-cnj0XBasUcptuTsx3R7jQpm81BxvhBXkJbxjczxOgfny6Yn2dglvsyRkCTYRElH-NR5sfbD5OOeEr1sssQQ0VhPPpNwX8zfokRgVnIx0mgyPxjYXlcRvktGmlid-QA9NcGyFe8jyXSmZV99e~34eRjNpw__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)](../documentation/what-is-a-block.md)  
 What is a block?, Blocks can utilize your design system data in unique ways  
   
 
@@ -121,11 +121,11 @@ What is a block?, Blocks can utilize your design system data in unique ways
 # Customize your documentation
 
   
-[Navigation](../documentation/customization/navigation/primary.html)  
+[Navigation](../documentation/customization/navigation/primary.md)  
   
-[Custom blocks](../documentation/customization/custom-blocks.html), Expand your options for documentation using custom content blocks  
+[Custom blocks](../documentation/customization/custom-blocks.md), Expand your options for documentation using custom content blocks  
   
-[![Custom properties](https://studio-assets.supernova.io/design-systems/6475/40077b2a-5694-4df5-8949-a763bcf95866.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1LzQwMDc3YjJhLTU2OTQtNGRmNS04OTQ5LWE3NjNiY2Y5NTg2Ni5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=Ioe4qwcC71NC8qEBbGxxcJwOktsM6iZ2tCpE5GeJSYAMQ05EFyILSWI-~gK21wx3QafzjtJhNH9RSx5HNs2nddEEBeSmCl0xo8lJV28oLO~RGvRYyfmi4KiDV7ojBz6c7T7tBAAZPgUJI2nq2uklboA1uEr3AgQYmHnE4V5LivPdch0sMTMd3xG0E4jolzbM39CsGYkMhmJlaXIZ8BIrUCr2NLDww7Xu2nN~tAg4IA5TnxgThAv6-tX4-hk7Q3ua6P-WrQHR4xuZelqnOAY6VMDYHTq5OvWg5T9iOx1vLyrS~jVUWC8gk5vOb5LXYrdNdYPN0ZyhXwQCeefS8AgFkw__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)](../documentation/customization/custom-properties.html)  
+[![Custom properties](https://studio-assets.supernova.io/design-systems/6475/40077b2a-5694-4df5-8949-a763bcf95866.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1LzQwMDc3YjJhLTU2OTQtNGRmNS04OTQ5LWE3NjNiY2Y5NTg2Ni5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=Ioe4qwcC71NC8qEBbGxxcJwOktsM6iZ2tCpE5GeJSYAMQ05EFyILSWI-~gK21wx3QafzjtJhNH9RSx5HNs2nddEEBeSmCl0xo8lJV28oLO~RGvRYyfmi4KiDV7ojBz6c7T7tBAAZPgUJI2nq2uklboA1uEr3AgQYmHnE4V5LivPdch0sMTMd3xG0E4jolzbM39CsGYkMhmJlaXIZ8BIrUCr2NLDww7Xu2nN~tAg4IA5TnxgThAv6-tX4-hk7Q3ua6P-WrQHR4xuZelqnOAY6VMDYHTq5OvWg5T9iOx1vLyrS~jVUWC8gk5vOb5LXYrdNdYPN0ZyhXwQCeefS8AgFkw__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)](../documentation/customization/custom-properties.md)  
 Custom properties, Configure your docs using custom exporter properties  
   
 
