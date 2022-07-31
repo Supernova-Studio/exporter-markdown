@@ -31,6 +31,7 @@ Create a single token alias:
 
 ![Img](https://studio-assets.supernova.io/design-systems/6475/06b45d37-047a-4678-bbfa-500d323f1475.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1LzA2YjQ1ZDM3LTA0N2EtNDY3OC1iYmZhLTUwMGQzMjNmMTQ3NS5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=EmnSX-xEexkhHP3VfjffiaV8oeO9XZOMAX~HxES5xHmhotQeEl0SJh4ZOD7ggZBbkTQACf9lcIK6NFcAZj2yTOhexqI1lF3-~uf55ufCxiz4TUjYnnocjGKr9h7fngRYvPN4P4lJCaJiuWCoNQAXWPCT9AOseSqc-qLdYz~8k6ADNpdtUAzEtLtOlr6NJE1y75LOlbtt0V9cuiPJfxFCnJV6QEEZ1ZdOXLmLiL4yoE92RZA6LcKUCSaAookJ2i0sZS7HPyFVTKDmBrTRfAu9EUUbTSCFnj~FkkNz7Pdq1ErktYqsR2OLieNkRH~cIsTiXw8RZzHlWFXO4Jxkif2ujw__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
 
+> Some extra info:  
 > If the token is an imported token, you can only reference other imported tokens with the same value
 
 ---
@@ -57,4 +58,5 @@ To create multiple aliases at once:
 
 In the case that you have multiple source files for your design system, it is possible to create a token alias that references a token in another of your linked files.
 
+> Be warned:  
 > If an alias to a token in another file is unlinked, the references will be removed

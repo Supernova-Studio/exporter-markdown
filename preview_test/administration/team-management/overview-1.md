@@ -11,6 +11,7 @@ Team members can be viewed in* Workspace Settings* under the *Team* tab. From th
 
 Invited team members will be added to your workspace. From the *Team* tab, you can manage the roles and status of all team members in the workspace. 
 
+> Be warned:  
 > *Note: *Only *Admin* and *Owner* roles can invite new team members
 
 To add new team members to your workspace: 
@@ -23,6 +24,7 @@ To add new team members to your workspace:
 
 If you are on the *Team* or *Company* plan, non-reviewer roles will count as a seat. See Plans and Billing for details. 
 
+> Yay:  
 > Upgrade to *Team* or *Company* plan to add editors, admins, and unlimited reviewers
 
 ## Resend invitation

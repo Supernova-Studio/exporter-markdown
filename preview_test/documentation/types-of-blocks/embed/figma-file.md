@@ -1,0 +1,26 @@
+
+# Figma file
+
+---
+
+  
+[Open Youtube Video](https://www.youtube.com/embed/RZ1uWeNoqWg)  
+
+
+## Embed Figma URL
+
+Embed a Figma file from a (public) URL in your documentation as an iFrame with the Figma block.
+
+1. Select `*Figma*` from the block menu
+
+1. Enter the URL of a (public) Figma file and click `*Embed*`
+
+1. You can optionally resize the container vertically by using the resize handle (on hover)
+
+![Img](https://studio-assets.supernova.io/design-systems/6475/8a1d78c7-24bd-4f19-9024-a63179597fda.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1LzhhMWQ3OGM3LTI0YmQtNGYxOS05MDI0LWE2MzE3OTU5N2ZkYS5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=cjFSskRLgq-ImVUKerzqRVJgeMw90ooKz8S5parcNqCEiFLVo62j~j3pBvo-AokPBYX~dqHDbiqHUMN0k9h-HL~uPFYMPpLqTu-vqbRgJtIYSjhDB10UAZKC5QvUVQf5bea0ZOBpCZcO79CaYWax6NoAgr3ZVkvg2pyJ1WbnC-x8kGXI~TeV1Jipl6MU6GravsPMPNNCM6r9ALkfic4xs8EXe0fHO~tS10AP9uLUlWsEfR1zkujc2LjdO6DB0z1WtvEj1VEgNF9rr3zM3b18yybX9ELVZ8oN7GU2gcnN7HWHTYVpMUbLPBUbhlQ81BVIQvL0sYcKCWinPBdaZHV4VQ__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
+
+![Img](https://studio-assets.supernova.io/design-systems/6475/db98f47d-7849-4388-9d3f-1f29f4dae3f7.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1L2RiOThmNDdkLTc4NDktNDM4OC05ZDNmLTFmMjlmNGRhZTNmNy5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=fRI0XJzFyvB7PkqgcvLMYC28Rlyxsqz1X-xHkLVo3cAj6DkCfxplKIRUVU~peG1qFd4AgfeYIAcCRF7gTc18VBpPz1EHJd0-dGdRVeaOd1a-AW7XfOY4zbZGsfITlyS-iCi3UlJFIhH2S04RL8ODy8ehnxMCLAnacNggaBqBXG4QlTJWRQwxo8e6u0qjIZQT-06qWGvg8Xqp-ms6wn7tXMcI3uVEhuts5jPZ5TRdCBD6hc2KpuMXYafB3~bsPRHsMlndSwSkZJzZqXu0Lgmw0X5l6I0WN9C8MnM~TzgdljczIwhlqAVqoI3LcOjC2LonQw2LnrYcrzKAUspTNN85uQ__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
+
+![Img](https://studio-assets.supernova.io/design-systems/6475/43a0e125-ff49-46ec-be23-825e7f29160b.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1LzQzYTBlMTI1LWZmNDktNDZlYy1iZTIzLTgyNWU3ZjI5MTYwYi5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=lNteSgXRTOm8NWWM-5JU6HNWbdaNE-p0ZrG7jHMQDylne~1VKAwXxg8nguyabxiNt3RbEbSqR7Cvu4Kw1oGQJFcNC8aH0ocVdamh6bfnnkgqNpr~zJPvTaDq041hke5k7LLkQoOdJd3jXDTle1R5i2MFZ6buRH0QrIeySELuyv-XMMPPXqLKlDUzAIHw8MmdAc0OeQ-cBDEKA~~rCVVfhmMFHmy-tMElclnEv6dK7~ITVW1pD6XYuBTNOUtTTm2c~lE7bNeuQpeVVEHwtmmGM9tNs~gMmgKOTFTsa3cSfwEHGdwfFKh~vDAblGi3YwVGgOENS7gdmanWWswXBRGHEA__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
+
+---

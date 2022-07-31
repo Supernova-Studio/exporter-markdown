@@ -19,4 +19,5 @@ To edit the billing details that appear on your invoices from Supernova:
 
 ![Img](https://studio-assets.supernova.io/design-systems/6475/e117566f-d139-469a-8153-00e6bd1bc68b.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1L2UxMTc1NjZmLWQxMzktNDY5YS04MTUzLTAwZTZiZDFiYzY4Yi5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=HNkKL7ADeSrYPMsxZHat4JN1kqW7Rh7RRUN6ax~O2sQWwW4A2a31KINTvseOCihiQgHiybhXZjjG2CiMQKVC8~Lrr-T3BpzF3mM8-6xqZW5R3uRrjhPD~eEXB4xxcqzhOsft8FHBxuyZtaw-ECs4y7keeERhbJt8zvtyACRGEaKKdCu03EPW9JM0Ql4qLGYXR0UGDmmYzqgUyo~ovhLmKs8PN4XKUw-RUt5bzzibJLdaFbqSzw2NsdNyfvUk45Dw-uMC-BMBNM-ooGZb5S-4YCXjsHsQ1FUTjHqUDlSnaMr9RPULIh-gSn0IiayVxKjAMwsWe1VL-P~l~zJGUPaTTA__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
 
+> Be warned:  
 > This feature can be accessed only by *Owners* and *Admins*

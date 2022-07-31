@@ -21,6 +21,7 @@ Side navigation removes the top navigation bar and only shows the side navigatio
 
 1. Your navigation will change automatically
 
+> Some extra info:  
 > The structure of your groups and pages always stays the same
 
 ![Img](https://studio-assets.supernova.io/design-systems/6475/d418cde1-a598-4905-a4a2-072ba01e7612.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1L2Q0MThjZGUxLWE1OTgtNDkwNS1hNGEyLTA3MmJhMDFlNzYxMi5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=GPDZwkqwhwgFP5tKZUOtow85XTC1kmAb3XXVyjsfRCi5CaiviX7tV5GiX0IvpRSzc-PrU4MmseAsP7gdKn8svOST20QaieTxJ0qGLZRn86mlbXcICfoCj-HciChUGHmAbE6OB3NzuHirzI7W9M3XmhxeNY9Dx5L2xqu~9MYyXSA4zfV8tOs7tDpBTDexufT7ckPWKTcf19UVf6bE6sGkbnQoRE5I40HYbSVJbDxMS37A6ZmxS7T3M~4RxGc8NQTI3kXj8Qls~0uPPRwUJYobI6uGcAnGs9BQy6I39sZRMg7iQUFjCRuDRuis-Z-z6Qb9zgfi~rYJaScwdK3iXx2mtg__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
@@ -53,14 +54,15 @@ Optionally, you can show a CTA button in the top navigation bar.
 
 1. Publish documentation site to see this feature take effect
 
+> Some extra info:  
 > This is a feature of the *default* *exporter* only
 
+  
+![Docs settings - CTA button](https://studio-assets.supernova.io/design-systems/6475/2c8eff60-1b04-4b96-b412-93543d8bbecd.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1LzJjOGVmZjYwLTFiMDQtNGI5Ni1iNDEyLTkzNTQzZDhiYmVjZC5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=m5mrhclJzJFwsqFSFzYjWBH6u75xlYt2fwMv1EZBg9uWjF0Ap78NAc61PxzATflGQDlT23uk~twweA5A8UIwYLKkK49J7~NIdc9j7XEQH0DaMrfSY25mZwHrJ45WMjQxonKLTK5L3AO-8ittYtXlKwP2HX-X3HOPKHXesl~bE31LaxRTRDfQbB3tL17lbPrM1sGKfcQe60jOoWODkVmKzSIyOdJ3OW4gC3JeKTsiNRJIkDzR2--PWaOP63czhVilD5FE1B2of91SwaQGXLR7O50n1sI0My4IQar0BsonLX8AxO-0sJ4zGu8zft0NhO6oskUDAEih3qaEUXwE1kaU~A__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)  
+Docs settings - CTA button  
 
 
-Missing parser for block type FigmaFrames
-
- 
-
+> Be warned:  
 > Publish to see this feature take effect (it will not be visible in the editor)
 
 - On top of another item to move it *into* that item

@@ -1,9 +1,13 @@
 
-# Token
+# General
 
 ---
 
-Token blocks are dynamic content blocks populated with data from your design system. The style in which the tokens appear in your documentation can be customized with exporters. See Customization.
+  
+[Open Youtube Video](https://www.youtube.com/embed/ircUjtjIPE8)  
+
+
+Token blocks are dynamic content blocks populated with data from your design system. The style in which the tokens appear in your documentation can be customized with exporters. See [Customization]().
 
 ![Img](https://studio-assets.supernova.io/design-systems/6475/46d58eb4-6dd1-4f64-9aba-caeacca11067.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1LzQ2ZDU4ZWI0LTZkZDEtNGY2NC05YWJhLWNhZWFjY2ExMTA2Ny5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=g3H9JjIR~5DiTCysMprzvwXMmtmu~BurKpoWm4vhCpkF2DoDdm-wO4MpKFd-T~V8ECIlkUT6QE2H-~CLv0mhX9r-pDkthcpT1c636iWXzt3dZNbiDKzb6T7tOAJKwfFoA9WcbacheQywNzMGXt8iEPAQv79HYlOJBVu2hek4QmiRYQjPEqbCEqgmULqGuTI~NqMM1LFAw3TjrMd9Qs~-6GKfxoXRIH8~REbg~aRNlkgdyyuwcvJTqkOO0okqHoktHKjinSA~nGCPQZuRbo52X2P7dcvT6NJc1aIPJXYeuEPW0ZA9GX-m3ADBz353K1s3egHJ~jP8i12~0nQbhKpxpw__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
 

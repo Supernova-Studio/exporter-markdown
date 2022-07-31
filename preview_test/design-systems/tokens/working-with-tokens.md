@@ -11,6 +11,7 @@ All changes to imported tokens should be re-imported into Supernova. If you are 
 
 To delete an imported token, it must be deleted in your design file. 
 
+> Some extra info:  
 > Groups created in Figma with the slash naming convention will be preserved when imported into Supernova. To edit a Figma group, make the change in Figma and re-import.
 
 ---

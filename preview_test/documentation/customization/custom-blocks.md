@@ -5,6 +5,10 @@ Expand your options for documentation using custom content blocks
 
 ---
 
+  
+[Open Youtube Video](https://www.youtube.com/embed/wQRpMHqpbCw)  
+
+
 Developers can define custom documentation blocks inside the exporter. These custom blocks take an input (custom property), and are rendered in the documentation as is determined by the exporter. This allows endless opportunities for customization of your design system documentation. 
 
 ---
@@ -43,4 +47,5 @@ Set the properties for the custom block:
 
 If you are using custom blocks in your documentation and you switch to an exporter that doesn't have matching definitions for them, the block will be ignored. Otherwise, if there is a matching block definition, the the block will continue to be rendered by the new exporter.
 
+> Yay:  
 > Upgrade to *Company* plan to use custom documentation blocks

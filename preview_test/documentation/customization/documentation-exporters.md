@@ -11,6 +11,10 @@ Supernova gives you the freedom to completely customize how your documentation l
 
 The documentation editor comes with a default documentation exporter already installed, so you can get started quickly. You can optionally [clone](https://learn.supernova.io/code-integration/exporters/customizing-exporters.html) this exporter and make changes to it in order to customize it for your brand.
 
+  
+[Open Youtube Video](https://www.youtube.com/embed/bKqR77QV-Xk)  
+
+
 ---
 
 ## Install a documentation exporter
@@ -31,6 +35,7 @@ To install a documentation exporter:
 
 It will now appear in your list of installed exporters, and is ready to apply to your documentation
 
+> Yay:  
 > Upgrade to *Company* plan to use custom documentation exporters
 
 ---
@@ -47,6 +52,7 @@ To use this exporter for your documentation, you must select it as the *Active E
 
 ![Img](https://studio-assets.supernova.io/design-systems/6475/2ca93470-5b4a-4b26-9e14-68cdc9bf2293.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1LzJjYTkzNDcwLTViNGEtNGIyNi05ZTE0LTY4Y2RjOWJmMjI5My5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=a49cBpEFwzsHpthbP~M8yR03M8Dyac6TuFtvrrpImxiIfYUHqMTVbr47uGFUQshJkArTHU8tdNcxnFBnFtES28b-7456pnqZfxKaFIUORLFLQ60op~KDWGFt8S7f5IhU73Om2b5k5R~7HbbtJ1e-yMhjhocV5BJyzX0poul2wjP9f-y5Wqgs579GwproZEEsl4e1J4LvFFfKjiTd9-OKYseu33GJpL2HyhbaWdXOunUAFE6COGzPJsV9SmrEc4W3s1gIFxUaA~j3iZtOHMrtwdH~XBJ0nsoh8HE0Lnd2rFyBxd8hPOThEV3RHwTdg6dbD6YVEFyp5swao45aTK9rsQ__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
 
+> Yay:  
 > Upgrade to *Company* plan to use custom documentation exporters
 
 ---

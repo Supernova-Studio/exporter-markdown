@@ -6,6 +6,10 @@ for working with tokens in code
 
 ---
 
+  
+[Open Youtube Video](https://www.youtube.com/embed/Q4luzoFV5U4)  
+
+
 # Usage
 
 Custom properties are the most useful for storing additional metadata next to design tokens. 
@@ -20,11 +24,18 @@ Defined custom properties will be:
 
 There are many ways how to use custom properties. Here is a list of a few examples of how others use custom properties for design tokens.
 
+  
+| Column 1 | Column 2 | Column 3 |  
+| --- | --- | --- |  
+| *Name* | *Type* | *Description* |  
+| Internal token | Boolean | For tokens that are not supposed to be exported as variables to code. These tokens are created only for easier management of our token set. 
+For example, for having tokens in Measures for referencing purposes, but not meant to be used in final code components. |  
+| CTI structure | Text | For generating variable names based on CTI structure (Category / Type / Item) as defined in [Style Dictionary](https://amzn.github.io/style-dictionary/#/tokens?id=category-type-item) or any other token naming schema (like in [Mineral UI](https://mineral-ui.netlify.app/tokens#formats-tokens-index)).  |  
+| Deprecated | Boolean | If the token is not supposed to be used anymore in new components, but still needs to exist in the codebase before removed completely. |  
+| Themeable | Boolean | If the token is themeable or not (as seen e.g. [Salesforce Lightning](https://www.lightningdesignsystem.com/design-tokens/)). |  
+| Group | Text | For structuring design tokens into groups, so it can be used by exporters for generating Sass maps (like in [this article](https://medium.com/bumble-tech/design-tokens-beyond-colors-typography-and-spacing-ad7c98f4f228) by Cristiano Rastelli). |  
+| iOS/Android/Web Platform | Boolean(s) | To define which tokens are supposed to be generated for a specific platform and which to ignore (e.g. tokens for responsive breakpoints only for web, nothing else). |  
 
-
-Missing parser for block type Table
-
- 
 
 # Structure of a property
 
@@ -42,11 +53,15 @@ Once a property is defined, everything but the `type` can be edited.
 
 ## Available types
 
+  
+| Column 1 | Column 2 | Column 3 |  
+| --- | --- | --- |  
+| *Custom property type* | *Description* | *In exporters* |  
+| Text | A common text value; sent to an exporter wrapped in quotes  | `"key": "text value"` |  
+| Number | A numeric value; sent to an exporter as a number | `"key": 123` |  
+| Boolean | A true or false value, sent to an exporter as a boolean | `"key": true` |  
+| Generic | Similar to text, but sent to an exporter like a constant | `"key": constant` |  
 
-
-Missing parser for block type Table
-
- 
 
 ---
 
@@ -56,6 +71,7 @@ Custom properties for tokens are applied at the design system level, to all toke
 
 ![Img](https://studio-assets.supernova.io/design-systems/6475/d026328c-aeac-4846-a0ca-515ebb8e0a61.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1L2QwMjYzMjhjLWFlYWMtNDg0Ni1hMGNhLTUxNWViYjhlMGE2MS5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=DkUNz9iJ9fcBeXKGS9j2fZxK9xuvK7qYjpGNYKJ5yjqDKjxHt7RYxgXwRVH0~P7CcQCj-G5Be9peBxUb2OAk2n09EBymUxqvWVrRwzqdnUv7VVyWwqRtDI2O84tNRCCDrMPds2-3Oo7NYyh0wYFifKbQOxEcmliSyag9MESveIiswg8aiBs0M98X1r6Q-Um8utp1LPtYLKWrJw2~m4rgY6CS4pEz8nDqHiUDp7dxZ9Ubo5vr~CUm09zSmnlst42J9DagSS01m4NzpiJ-jgVA3fYAxaxiSdKFGyOmSX0enzKhNYB7Hjd~sIcJgawysRXlUsaLL53Wnahd6iSnHfG2aA__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
 
+> Be warned:  
 > Only owners and admins can define custom properties.
 
 ## Create a custom property
@@ -78,6 +94,7 @@ Custom properties for tokens are applied at the design system level, to all toke
 
 1. Click *✓* to save
 
+> Some extra info:  
 > *Note →* Once the _type**_ has been defined and the property saved, it cannot be changed
 
 ---
@@ -88,6 +105,7 @@ Custom properties for tokens are applied at the design system level, to all toke
 
 1. In the dialog, type *`DELETE`* to confirm
 
+> Be warned:  
 > Removing a custom property will also remove all token overrides
 
 ---
@@ -125,76 +143,3 @@ Custom properties defined at the design system level can be overridden on any to
 1. Click *`Reset all overrides`* to reset all to default
 
 1. Click *`Confirm`* to save
-
-*Name*
-
-*Type*
-
-*Description*
-
-Internal token
-
-Boolean
-
-For tokens that are not supposed to be exported as variables to code. These tokens are created only for easier management of our token set. 
-For example, for having tokens in Measures for referencing purposes, but not meant to be used in final code components.
-
-CTI structure
-
-Text
-
-For generating variable names based on CTI structure (Category / Type / Item) as defined in [Style Dictionary](https://amzn.github.io/style-dictionary/#/tokens?id=category-type-item) or any other token naming schema (like in [Mineral UI](https://mineral-ui.netlify.app/tokens#formats-tokens-index)). 
-
-Deprecated
-
-Boolean
-
-If the token is not supposed to be used anymore in new components, but still needs to exist in the codebase before removed completely.
-
-Themeable
-
-Boolean
-
-If the token is themeable or not (as seen e.g. [Salesforce Lightning](https://www.lightningdesignsystem.com/design-tokens/)).
-
-Group
-
-Text
-
-For structuring design tokens into groups, so it can be used by exporters for generating Sass maps (like in [this article](https://medium.com/bumble-tech/design-tokens-beyond-colors-typography-and-spacing-ad7c98f4f228) by Cristiano Rastelli).
-
-iOS/Android/Web Platform
-
-Boolean(s)
-
-To define which tokens are supposed to be generated for a specific platform and which to ignore (e.g. tokens for responsive breakpoints only for web, nothing else).
-
-*Custom property type*
-
-*Description*
-
-*In exporters*
-
-Text
-
-A common text value; sent to an exporter wrapped in quotes 
-
-`"key": "text value"`
-
-Number
-
-A numeric value; sent to an exporter as a number
-
-`"key": 123`
-
-Boolean
-
-A true or false value, sent to an exporter as a boolean
-
-`"key": true`
-
-Generic
-
-Similar to text, but sent to an exporter like a constant
-
-`"key": constant`

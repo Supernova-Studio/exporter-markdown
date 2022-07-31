@@ -9,6 +9,10 @@ Manage exportable assets in your design system
 
 In Supernova, assets are exportable components that are used in your design system. These assets are considered a component that you may want to export, such as icons, and any components that are exportable in Figma will be imported into Supernova as an asset.
 
+  
+[Open Youtube Video](https://www.youtube.com/embed/KlmWHukPjYk)  
+
+
 ---
 
 # Working with assets

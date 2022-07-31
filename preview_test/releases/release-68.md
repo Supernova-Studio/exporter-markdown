@@ -19,6 +19,7 @@ With BitBucket set up, you can automatically deliver your tokens, assets, or eve
 
 ![Img](https://studio-assets.supernova.io/design-systems/6475/2c9e9113-a232-4274-a5bc-3a7220582e9c.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1LzJjOWU5MTEzLWEyMzItNDI3NC1hNWJjLTNhNzIyMDU4MmU5Yy5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=IM9IWT0VsLi26SJcQ4oxUp4~Bw~0eKWBWbCkm8RKQp8BztRHTmbQhuG~8JX5usMm-JoIW1S~Qh0v3qdEjXFQMAej2XEmDIR-AZDlNNvj9vcVVbiZY682RZRy4nGOHDOSmrbJg9frQVJzWeLI-hM3LnLH1xbd-phrlcpSwFqYcPPDi4cM3yF~mYage178abFf5K51J32zis1hpGDhCCdr-XwiDzS6RA3DJzIc7NwrgGMOUPNo1kxvGZFt4ia3BOLLkNKofstCvIAnM7WH1W4UNxaAla9-5QAuBwCqad1U9TrcyIc4u2v~4YzW7XlwoqGtZh7HLWF-bOC6x5UEQVWKCA__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
 
+> Yay:  
 > If are hosting BitBucket yourself on your own server, you are able to authenticate using your personal access token created in your own self-hosted BitBucket.
 
 ## Editable React Widgets
@@ -33,13 +34,43 @@ With editable widgets, you can give your users option to play around with the co
 
 The following widget has live code enabled, so click the new "Edit" button to see it in action!
 
+```javascript  
+import React from 'react';
+import Button from '@material-ui/core/Button';
+import Snackbar from '@material-ui/core/Snackbar';
+import MuiAlert from '@material-ui/lab/Alert';
+import { makeStyles } from '@material-ui/core/styles';
+
+function Alert(props) {
+  return <MuiAlert elevation={6} variant="filled" {...props} />;
+}
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    width: '80%',
+    '& > * + *': {
+      marginTop: theme.spacing(2),
+    },
+  },
+}));
+
+export default function CustomizedSnackbars() {
+  const classes = useStyles();
+  return (
+    <div className={classes.root}>
+      <Alert severity="warning">I am warning you!</Alert>
+      <Alert severity="info">I have an information you'll find interesting</Alert>
+      <Alert severity="success">Complete success, wow</Alert>
+    </div>
+  );
+}  
+```
+
 Try changing one of the alerts to error message using the following code:
 
-
-
-Missing parser for block type Code
-
- 
+```typescript  
+<Alert severity="error">Error Error Error!</Alert>  
+```
 
 ## Codesandbox.io Integration
 
@@ -59,4 +90,5 @@ We have also removed, bundled, or cached remaining code libraries, and removed a
 
 As always, if you would like to see something new, fixed, or improved, join our [Discord community](https://community.supernova.io/) — we are always there. Thank you for your support!
 
+> Be warned:  
 > If you are using your own documentation exporter, you* must pull upstream changes* from our main exporter and merge them to your project in order to get new features and improvements, such as live editable react code blocks.

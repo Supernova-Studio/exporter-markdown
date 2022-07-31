@@ -15,6 +15,7 @@ Your Figma account will be added as an integration when you link a Figma file. T
 
 1. Authorize your account with Figma
 
+> Some extra info:  
 > *Note ->* If you have already linked a Figma file, your Figma account will already appear in integrations
 
 ---

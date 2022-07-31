@@ -7,11 +7,10 @@
 
 Any page can include subpages in the form of tabs. Adding a tab to a page turns it into a tabbed page. This is a good way to structure different sections of information with the same theme.
 
+  
+![Tabbed page](https://studio-assets.supernova.io/design-systems/6475/6fb50f1f-9a42-4945-bd54-5200338d1b2f.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1LzZmYjUwZjFmLTlhNDItNDk0NS1iZDU0LTUyMDAzMzhkMWIyZi5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=Y5rrjVZy9e83T1xW9sF8uwGAKECtd32qW-nx~kzLQi5SymGf2FE1swJqygT3UDARvBUPks5PdVB1H2CunRsKB9z2-P5K9Rp2fMO~7Uz6K9FFOD09avzmWD8EVDg11aMJG5WdtKNTm6wLRXJ58D7He0vekZX9zD77IsnpHnAquLS5zODKmVh6skebAibwnEEIiSsKLYxP6w6svtDBE02ppic4QJzYLxdZdomNwT3ZJXwaVXd-~u9IeCOvoaenSkgWKW614GiyG4~nTbYng0AIuc59Vfi68QK~PvA~g1CJi6muEXuchCTrFKA5c1kGTV8k9u0c9Hb6QXyaCMIvXxuI4g__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)  
+Tabbed page  
 
-
-Missing parser for block type FigmaFrames
-
- 
 
 ---
 
@@ -25,21 +24,19 @@ To add a tab to a page
 
 1. In the *Create tab* dialog, give it a name and click *`Confirm`*
 
+  
+![Tabbed pages - Add tab](https://studio-assets.supernova.io/design-systems/6475/31899b73-9801-4fcb-8a64-382d3eceec9b.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1LzMxODk5YjczLTk4MDEtNGZjYi04YTY0LTM4MmQzZWNlZWM5Yi5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=aatD~TFdiv5csSeTFKZqROwDX3sPyN36iJlv57U-0gaTKQd97eOPPrQQqG6MsXPVkHekRXhZ0yNda9zkvtOsA63XDN6VySVKq-bcH2qJoU8tukiEu-gzlK3wWDFsYrm53ElTusjhoH1F6~yYG42KBk02~MS1mq65nMLGJvHyltaHXn3S8qEyZJqoQSbNJEiR3HIQ9rrroLtFo6PsM-M9-YMLnofNNgclzxD5T7w~WYdxQb5BnpUkBJvRI-b2tO19GHa~u3a7bXlV2M6L8OaWPMKWGwbpomMRTRJZbW6MUjHKW3VrFiGfUUtuJHFQJyU6bOyTRUzqiEBUOi4E9XOiVw__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)  
+Tabbed pages - Add tab  
 
-
-Missing parser for block type FigmaFrames
-
- 
 
 ### Use previous tab names
 
 If you have previously set up tabs on a different page, you may be prompted when creating a tab to decide if you would like to add the previous tab set again. Choose *`Use previous tabs`* to do so, or *`No thanks`* to create a new tab set.
 
+  
+![Use previous](https://studio-assets.supernova.io/design-systems/6475/6fdfb8db-2b07-481b-8031-dc56b7968b59.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1LzZmZGZiOGRiLTJiMDctNDgxYi04MDMxLWRjNTZiNzk2OGI1OS5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=hpQFAvYou9cnWM7r9DkxD3Ugx6xNgkEIEtZf2OFszr9YlsARu7qSKEx~7FDgySr2RXYklnbfT6cfi2kAjdnkmerJ185pyz0tk8~XH6mWimE8GmvwKuUbldNGt-tMUAHvFZqidrr4sI~SCJjAHgZs7zO2wYdGPbwxodhDXPh9F4758fnjtqMp4FDhSg1fACaVuKGfMc9w5bCLFCATXCTnc7GFif96nV3jsO418OSN9cLVyaUzNUvEF~5gCEF7ilRYO4Dm06O6Lky0sb07NCaBmdKeN2lAFi7g2LRtBePtUia9gpzP6ZOBikHwTRMTUxjNXzh2r6EuADYC3oVn4cl~0Q__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)  
+Use previous  
 
-
-Missing parser for block type FigmaFrames
-
- 
 
 ---
 
@@ -77,6 +74,7 @@ Removing a tab will also remove its contents. Please move the contents to anothe
 
 ![Img](https://studio-assets.supernova.io/design-systems/6475/c41f844e-c9fc-4f38-96e6-9ac87aeb55a8.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1L2M0MWY4NDRlLWM5ZmMtNGYzOC05NmU2LTlhYzg3YWViNTVhOC5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=NkS4rGnKvm9e-~fGumOFQY2~0S18jjs9~HiZ6Pps3VzwAeWQU~RR9FkJ-NU29CfZn1fo9ju2M-ql6Gt9d4Jfxeomq7h5nEK78sjAWRgbUiGhKTZ-FOQtskRGhrvbbeZM3vOOocq9C3F~QJikdVGnex5qpaCCCHdeSsy7a-vHBix4eoWqvyP8Z8-dGxMShoi81efzHcDEVGdLFayefPy8Epxd77s10nUWrsX5CXCYbigWwI~WlWJGDcnmnA04HvK33HyF2KRBPBpBl1-bNbUH2T7Ix6w6G7Q6mx56ve~u7lsOaLDQcs7xW~EiWLAJ4PDI6VpXeGamQjpdWg5-7XFabQ__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
 
+> Please note:  
 > Removing a tab will also remove its contents. Please move the contents to another page if you would like to preserve them.
 
 ---

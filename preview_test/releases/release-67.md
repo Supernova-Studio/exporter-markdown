@@ -45,27 +45,31 @@ You can also use tables without border as simulation of layout (for now) if you 
 
 ### Design Checklist
 
+  
+| Column 1 | Column 2 | Column 3 | Column 4 | Column 5 | Column 6 | Column 7 |  
+| --- | --- | --- | --- | --- | --- | --- |  
+| ![Img](https://studio-assets.supernova.io/design-systems/6475/d4df21cd-d3b7-4169-8aa3-b98c999d0161.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1L2Q0ZGYyMWNkLWQzYjctNDE2OS04YWEzLWI5OGM5OTlkMDE2MS5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=ZQAojJ9waNs6iuWwbY1SXlg0-bJpl-UZ6BPGI~IomMZ5gRKP4K1RDKFqrhZOcYzH6jBPutnqONUk~tJdD4v1Ih3ecT-slGZ5fYgppqCa-5fsdjdy7lSdNiLMNX~bfSPVj0rgvh0V2uFZzoREmSDKGnfLVpwvKo8OyeXgKqt2CqzZipxARqXX6~2Q8qIfMNFlOpRsd3dTWQXz5eg8oJMkw8CJDjTkVqizDaOOcaa0Y91XwLiTjTlKk2db6Rksq5ILtWyOeWOWhBAGJ-n-BgUGJfL7rra5~Mib9j2rcJPA98Y6yoij8PWqyj-xSroK7D5gWxuAWnzDysEiw-pJAZGG8Q__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA) |  | *All interactive states*<br>Includes all interactive states that are applicable (hover, down, focus, keyboard focus, disabled). |  | ![Img](https://studio-assets.supernova.io/design-systems/6475/c8d13754-5016-4049-9058-c877802690e7.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1L2M4ZDEzNzU0LTUwMTYtNDA0OS05MDU4LWM4Nzc4MDI2OTBlNy5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=QjMnCqtcAKB6YezzkJ2NSImbPrTOAdE61H0kHFgJzmAXSN77cvoznEa6XjKszE8BRYLA8dzrQpHAqU1b138zjy1QS02y2IP~s4U5ztXiV8Ls98OK8ZhZMvIqLlGf2F~2m2uLPEocDQ-pJUVY6vf~U4D72v1aKRO2cb1WTWT-6XSAJ~kJBe6z6wDigKbZwJgJIe2YlS5EtEX3yxynNNZWtQ6KQUulUDHuEFKkqH7fOW2V2MpGZDs~C~KdtCXeD24HrG6A96gUGqDK2F2jANirEiUj1W9pR6LRK3dFNcQ4cXVcdoFoV1KLEd~vUfcRHQK2fhTA36ANVhDP~YtaCcnedg__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA) |  | *Usage Guidelines*<br>Includes a list of dos and don'ts that highlight best practices and common mistakes. |  
+| ![Img](https://studio-assets.supernova.io/design-systems/6475/89a99b60-ee71-4914-a449-9ca61dbdef1c.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1Lzg5YTk5YjYwLWVlNzEtNDkxNC1hNDQ5LTljYTYxZGJkZWYxYy5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=iOPNS7nOIkFTrQmo~9GxS4n0pVbG-0FDELuMj8xfQYJR7V00ql-YrLmsANSk148oJRBr~lGrqv8U1uY8jYp7hkDYcboEKwxZyg2Ub6ZpPgUtAgB8rDGVKOeuZfEnoBOU7SJeje482XsvBOs0pe3TMRc-ze1Fj5RFq-HhxJedMvBbadauxk-VJSjHCTWCs-dESJ64XV4ueAEoRNPg0A7-GXACbLQvoeX2YMy~Gz~0vV0NpBelR3kJiXEM8fzKUW6-srydrB1FdQsQbjcYG36W2rTynAp9tDel24~dhnkxZb48CGzOYhyGAgd8tBtswpXnM5MSejNrNrx~Kpe32A1jxw__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA) |  | *All color themes*<br>Works properly across all four color themes (lightest, light, dark, darkest). |  | ![Img](https://studio-assets.supernova.io/design-systems/6475/bad2b711-048a-472c-a8d9-d5108c2ea3a1.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1L2JhZDJiNzExLTA0OGEtNDcyYy1hOGQ5LWQ1MTA4YzJlYTNhMS5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=MZbzWlN4edTdDhtkYi8UHeIG5uhcewfBGkf7Q-GogVnMmBYn1rmjMQrZjbEY1EpT~Lx9TnCVFUY-WYkFR6sABpOjVuQwRoFNy0WXWNNn8MhEVI5Uv5-yLeMwCUSefIbWJzlATpzZBNYNgkeDNG1Ol0F6gBmFZ-voAJjAqpe~fclezaePNXltbcuVhmLGXTTNFpD3UYurMywtta1GIkZ1VzPfFl~VkbVCvQfrpyjxmZca~6f2E24k8jgNhSGBCu2aTV8sAP9Z2sDjb0pGOUaiZMqQ-sQu1feSNw~R7tu86Q54J~Pm-AJgvd9-WJItqqyoHuf44Bonl6Fv4UTwHbJx8A__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA) |  | *Writing Guidelines*<br>Includes content standards or usage guidelines for how to write or format in-product content for the component. |  
+| ![Img](https://studio-assets.supernova.io/design-systems/6475/ded4b304-b4e0-4db8-8330-9a03c15783d0.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1L2RlZDRiMzA0LWI0ZTAtNGRiOC04MzMwLTlhMDNjMTU3ODNkMC5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=EyqZbrbJNXdNwqx4vfWpr3uj8PhsL7asjHVJbYlnUDxuqlzOnriRME-tpXsT1ATnXiYQbum0Rey8r1LdVFlss91ZsOKcESegwGwwlYQaHHyfGiOpnLtzPuvLNyeIeA89Us54Ew7PpxyaNbTOwAzbPyXxRX1DWosDjV50x2k3oz8MOZX60sK18gRzTn8PSbKeMJ5rbmwixoV2fYzl5UhLkuW1469VHKfaWsQgZZ6bEw3QrwJ4q27abh06jExqXIyF~mHXDKvZdLpM~Z7nVvcr133eouu2vGwMort9ZdOAqGeRTDpAwppLjRw-Cxfqx4xpPnOdhdKvG91O8bpyk6oJIg__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA) |  | *All platform scales*<br>Includes a desktop scale (UWP, macOS, web desktop) and a mobile scale (iOS, Android, web mobile). |  | ![Img](https://studio-assets.supernova.io/design-systems/6475/d0767523-6061-4bda-a833-a92e4be9fbbb.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1L2QwNzY3NTIzLTYwNjEtNGJkYS1hODMzLWE5MmU0YmU5ZmJiYi5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=d~rtn9DDHU9MPPS4XItBsv0OzPLasc4JQBDvdjl0s2oovfv86bef9HUQR2AtrPnBO-UUGONcaXDwTKAu4RqBP7vYoUVIah8B1wbvL~2zXSrOvL4ggze-~QqgrRrRx8cBwP9yzb6wc6VwMSELoHz1RVoRciZ7jQFBRpLUaYgDtgNrZYFrvFaOIG~tVraErTr9txbH08hvVAp5iteG7tLwRCOJXCr1UYS7zc7zTdz7sJz9lPKp7izA~XYtSeg-usgSBns1tPPwfxYibr3fGfYC8~MBmnb03fZ8UESP1fu4JzQdP69j8jq5UvMnkeF-u9PJ304shjI~vXkQaK~at9gnSA__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA) |  | *Internationalization Guidelines*<br>Works properly across various locales and includes guidelines for bi-directionality (RTL). |  
 
-
-Missing parser for block type Table
-
- 
 
 ### Side by side descriptions
 
+  
+| Column 1 | Column 2 | Column 3 |  
+| --- | --- | --- |  
+| ![Img](https://studio-assets.supernova.io/design-systems/6475/bc07ff72-c8e8-4156-9a23-631285da50af.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1L2JjMDdmZjcyLWM4ZTgtNDE1Ni05YTIzLTYzMTI4NWRhNTBhZi5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=UCJsbl~CffMkPklNDfy~jYN-teg0va5FMluVuIWTA24P8xgor~-q5PnS7EJnkukUmeugHQ4fFwIKOsWcDXScIv6KEibWxszKb39rac48kLHTtnJHsANjeLCc19VNyWQU9MzMckPscQsSVRfnd3xAh-dyJXJG3xay~4-Ru8AX9pj066HXmzO1jFiYARlLVB7xaqFLDk6K3HFIuGDAKOq-5uXrCqeX~dC1OHXLGozek4z~pP~4hNUbqFEoMWx5hn9hJ9gymERZYY90ryUOlPZnRZ7WGXQ95mBfWjk86eiEIp8d9FQ~Ge1b--33n0gI2w9f68t6z-gqYP1HMhe7gcGmmw__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA) |  | *Buttons*<br><br>Buttons in Spectrum for CC Express have indigo as the color for the accent button and higher contrast for primary and secondary buttons. <br>Spectrum for CC Express also uses a different icon set. Other attributes stay the same across themes. |  
 
-
-Missing parser for block type Table
-
- 
 
 ### Do and don't
 
+  
+| Column 1 | Column 2 | Column 3 |  
+| --- | --- | --- |  
+| *Be concise*<br>Button text should be concise: 1 or 2 words, no longer than 4 words, with fewer than 20 characters including spaces. Don’t use punctuation marks such as periods or exclamation points. |  | ![Img](https://studio-assets.supernova.io/design-systems/6475/3a41973c-63cd-448b-a62e-75c0378b9547.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1LzNhNDE5NzNjLTYzY2QtNDQ4Yi1hNjJlLTc1YzAzNzhiOTU0Ny5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=E4x66Gu1JRIUbFbFpOSXHaTjsOpjgdjJt9UeELAY11r8umXn-V0fyWSD~p6KLgDXpkxmWADDbFIMUzZOHbFRlF8CaFluFhaDKbMTE0VgnkerLZyyFwQ2P1d1RFG8QHQdVcgKeBhZaYoskCDo4I-GB9yuyef-~hPp2Q0p2Q55VgcrlylFX0NhMpwGQj~s3jp5v0Awkxa3t-B35f8lPZLQ-loKaqhzdanXsTXfSKog~gHPS7xqYAanzX1UKqXOXi~0BbhnjynDq73zL93QWXTawgrW~hwtrvLh4RGwGn7bVjKUEB4mhO39vZk4566Fj22Y~qguy8nLmya6M03JSWCK0w__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA) |  
+|  |  |  |  
+|  |  | ![Img](https://studio-assets.supernova.io/design-systems/6475/0b82da30-4c75-4ace-99a8-24b26d2a6ff7.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1LzBiODJkYTMwLTRjNzUtNGFjZS05OWE4LTI0YjI2ZDJhNmZmNy5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=Fysww40uI66cLqs5RAwxxzV2Xs0hF0UdsuAm9bofQ081Ss346Vv2ivDgJ44IFE0kuQXoE0RwTiiMID0pBF55E7iXSZbLDxRF4IPLYvKf-TWnLZV8p8F3mN1UzlRXSqIM5Wb2kKZ8pszo3rwBswg4gXaSv54Y0sCR969eG7b~Q902PXJOQMJKOg0y9akw0mWxyFSt6v6MRJIaOviKD2Q8pwO7P92ZsQ7OTPadFRkKJkEqGYtxOUpKbJpVEVbgUlpJbZFn43WD97x5qu2XaeDO45U1zgvbvUKvdbiF9CfyGiVK-sFP2JF8jsxhOaClhvj72IqkxNCJAL95Y8XZ3Kthxg__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA) |  
 
-
-Missing parser for block type Table
-
- 
 
 ---
 
@@ -79,56 +83,5 @@ We have also made it easier for you to share documentation with others, and also
 
 As always, if you would like to see something new, fixed or improved, join our [Discord community](https://community.supernova.io/) — we are always there. Thank you for your support!
 
+> Be warned:  
 > If you are using your own documentation exporter, you* must pull upstream changes* from our main exporter and merge them to your project in order to get new features and improvements, such as new table visual options.
-
-![Img](https://studio-assets.supernova.io/design-systems/6475/d4df21cd-d3b7-4169-8aa3-b98c999d0161.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1L2Q0ZGYyMWNkLWQzYjctNDE2OS04YWEzLWI5OGM5OTlkMDE2MS5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=ZQAojJ9waNs6iuWwbY1SXlg0-bJpl-UZ6BPGI~IomMZ5gRKP4K1RDKFqrhZOcYzH6jBPutnqONUk~tJdD4v1Ih3ecT-slGZ5fYgppqCa-5fsdjdy7lSdNiLMNX~bfSPVj0rgvh0V2uFZzoREmSDKGnfLVpwvKo8OyeXgKqt2CqzZipxARqXX6~2Q8qIfMNFlOpRsd3dTWQXz5eg8oJMkw8CJDjTkVqizDaOOcaa0Y91XwLiTjTlKk2db6Rksq5ILtWyOeWOWhBAGJ-n-BgUGJfL7rra5~Mib9j2rcJPA98Y6yoij8PWqyj-xSroK7D5gWxuAWnzDysEiw-pJAZGG8Q__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
-
-*All interactive states*
-
-Includes all interactive states that are applicable (hover, down, focus, keyboard focus, disabled).
-
-![Img](https://studio-assets.supernova.io/design-systems/6475/c8d13754-5016-4049-9058-c877802690e7.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1L2M4ZDEzNzU0LTUwMTYtNDA0OS05MDU4LWM4Nzc4MDI2OTBlNy5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=QjMnCqtcAKB6YezzkJ2NSImbPrTOAdE61H0kHFgJzmAXSN77cvoznEa6XjKszE8BRYLA8dzrQpHAqU1b138zjy1QS02y2IP~s4U5ztXiV8Ls98OK8ZhZMvIqLlGf2F~2m2uLPEocDQ-pJUVY6vf~U4D72v1aKRO2cb1WTWT-6XSAJ~kJBe6z6wDigKbZwJgJIe2YlS5EtEX3yxynNNZWtQ6KQUulUDHuEFKkqH7fOW2V2MpGZDs~C~KdtCXeD24HrG6A96gUGqDK2F2jANirEiUj1W9pR6LRK3dFNcQ4cXVcdoFoV1KLEd~vUfcRHQK2fhTA36ANVhDP~YtaCcnedg__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
-
-*Usage Guidelines*
-
-Includes a list of dos and don'ts that highlight best practices and common mistakes.
-
-![Img](https://studio-assets.supernova.io/design-systems/6475/89a99b60-ee71-4914-a449-9ca61dbdef1c.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1Lzg5YTk5YjYwLWVlNzEtNDkxNC1hNDQ5LTljYTYxZGJkZWYxYy5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=iOPNS7nOIkFTrQmo~9GxS4n0pVbG-0FDELuMj8xfQYJR7V00ql-YrLmsANSk148oJRBr~lGrqv8U1uY8jYp7hkDYcboEKwxZyg2Ub6ZpPgUtAgB8rDGVKOeuZfEnoBOU7SJeje482XsvBOs0pe3TMRc-ze1Fj5RFq-HhxJedMvBbadauxk-VJSjHCTWCs-dESJ64XV4ueAEoRNPg0A7-GXACbLQvoeX2YMy~Gz~0vV0NpBelR3kJiXEM8fzKUW6-srydrB1FdQsQbjcYG36W2rTynAp9tDel24~dhnkxZb48CGzOYhyGAgd8tBtswpXnM5MSejNrNrx~Kpe32A1jxw__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
-
-*All color themes*
-
-Works properly across all four color themes (lightest, light, dark, darkest).
-
-![Img](https://studio-assets.supernova.io/design-systems/6475/bad2b711-048a-472c-a8d9-d5108c2ea3a1.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1L2JhZDJiNzExLTA0OGEtNDcyYy1hOGQ5LWQ1MTA4YzJlYTNhMS5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=MZbzWlN4edTdDhtkYi8UHeIG5uhcewfBGkf7Q-GogVnMmBYn1rmjMQrZjbEY1EpT~Lx9TnCVFUY-WYkFR6sABpOjVuQwRoFNy0WXWNNn8MhEVI5Uv5-yLeMwCUSefIbWJzlATpzZBNYNgkeDNG1Ol0F6gBmFZ-voAJjAqpe~fclezaePNXltbcuVhmLGXTTNFpD3UYurMywtta1GIkZ1VzPfFl~VkbVCvQfrpyjxmZca~6f2E24k8jgNhSGBCu2aTV8sAP9Z2sDjb0pGOUaiZMqQ-sQu1feSNw~R7tu86Q54J~Pm-AJgvd9-WJItqqyoHuf44Bonl6Fv4UTwHbJx8A__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
-
-*Writing Guidelines*
-
-Includes content standards or usage guidelines for how to write or format in-product content for the component.
-
-![Img](https://studio-assets.supernova.io/design-systems/6475/ded4b304-b4e0-4db8-8330-9a03c15783d0.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1L2RlZDRiMzA0LWI0ZTAtNGRiOC04MzMwLTlhMDNjMTU3ODNkMC5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=EyqZbrbJNXdNwqx4vfWpr3uj8PhsL7asjHVJbYlnUDxuqlzOnriRME-tpXsT1ATnXiYQbum0Rey8r1LdVFlss91ZsOKcESegwGwwlYQaHHyfGiOpnLtzPuvLNyeIeA89Us54Ew7PpxyaNbTOwAzbPyXxRX1DWosDjV50x2k3oz8MOZX60sK18gRzTn8PSbKeMJ5rbmwixoV2fYzl5UhLkuW1469VHKfaWsQgZZ6bEw3QrwJ4q27abh06jExqXIyF~mHXDKvZdLpM~Z7nVvcr133eouu2vGwMort9ZdOAqGeRTDpAwppLjRw-Cxfqx4xpPnOdhdKvG91O8bpyk6oJIg__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
-
-*All platform scales*
-
-Includes a desktop scale (UWP, macOS, web desktop) and a mobile scale (iOS, Android, web mobile).
-
-![Img](https://studio-assets.supernova.io/design-systems/6475/d0767523-6061-4bda-a833-a92e4be9fbbb.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1L2QwNzY3NTIzLTYwNjEtNGJkYS1hODMzLWE5MmU0YmU5ZmJiYi5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=d~rtn9DDHU9MPPS4XItBsv0OzPLasc4JQBDvdjl0s2oovfv86bef9HUQR2AtrPnBO-UUGONcaXDwTKAu4RqBP7vYoUVIah8B1wbvL~2zXSrOvL4ggze-~QqgrRrRx8cBwP9yzb6wc6VwMSELoHz1RVoRciZ7jQFBRpLUaYgDtgNrZYFrvFaOIG~tVraErTr9txbH08hvVAp5iteG7tLwRCOJXCr1UYS7zc7zTdz7sJz9lPKp7izA~XYtSeg-usgSBns1tPPwfxYibr3fGfYC8~MBmnb03fZ8UESP1fu4JzQdP69j8jq5UvMnkeF-u9PJ304shjI~vXkQaK~at9gnSA__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
-
-*Internationalization Guidelines*
-
-Works properly across various locales and includes guidelines for bi-directionality (RTL).
-
-![Img](https://studio-assets.supernova.io/design-systems/6475/bc07ff72-c8e8-4156-9a23-631285da50af.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1L2JjMDdmZjcyLWM4ZTgtNDE1Ni05YTIzLTYzMTI4NWRhNTBhZi5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=UCJsbl~CffMkPklNDfy~jYN-teg0va5FMluVuIWTA24P8xgor~-q5PnS7EJnkukUmeugHQ4fFwIKOsWcDXScIv6KEibWxszKb39rac48kLHTtnJHsANjeLCc19VNyWQU9MzMckPscQsSVRfnd3xAh-dyJXJG3xay~4-Ru8AX9pj066HXmzO1jFiYARlLVB7xaqFLDk6K3HFIuGDAKOq-5uXrCqeX~dC1OHXLGozek4z~pP~4hNUbqFEoMWx5hn9hJ9gymERZYY90ryUOlPZnRZ7WGXQ95mBfWjk86eiEIp8d9FQ~Ge1b--33n0gI2w9f68t6z-gqYP1HMhe7gcGmmw__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
-
-*Buttons*
-
-Buttons in Spectrum for CC Express have indigo as the color for the accent button and higher contrast for primary and secondary buttons. 
-
-Spectrum for CC Express also uses a different icon set. Other attributes stay the same across themes.
-
-*Be concise*
-
-Button text should be concise: 1 or 2 words, no longer than 4 words, with fewer than 20 characters including spaces. Don’t use punctuation marks such as periods or exclamation points.
-
-![Img](https://studio-assets.supernova.io/design-systems/6475/3a41973c-63cd-448b-a62e-75c0378b9547.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1LzNhNDE5NzNjLTYzY2QtNDQ4Yi1hNjJlLTc1YzAzNzhiOTU0Ny5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=E4x66Gu1JRIUbFbFpOSXHaTjsOpjgdjJt9UeELAY11r8umXn-V0fyWSD~p6KLgDXpkxmWADDbFIMUzZOHbFRlF8CaFluFhaDKbMTE0VgnkerLZyyFwQ2P1d1RFG8QHQdVcgKeBhZaYoskCDo4I-GB9yuyef-~hPp2Q0p2Q55VgcrlylFX0NhMpwGQj~s3jp5v0Awkxa3t-B35f8lPZLQ-loKaqhzdanXsTXfSKog~gHPS7xqYAanzX1UKqXOXi~0BbhnjynDq73zL93QWXTawgrW~hwtrvLh4RGwGn7bVjKUEB4mhO39vZk4566Fj22Y~qguy8nLmya6M03JSWCK0w__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
-
-![Img](https://studio-assets.supernova.io/design-systems/6475/0b82da30-4c75-4ace-99a8-24b26d2a6ff7.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1LzBiODJkYTMwLTRjNzUtNGFjZS05OWE4LTI0YjI2ZDJhNmZmNy5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=Fysww40uI66cLqs5RAwxxzV2Xs0hF0UdsuAm9bofQ081Ss346Vv2ivDgJ44IFE0kuQXoE0RwTiiMID0pBF55E7iXSZbLDxRF4IPLYvKf-TWnLZV8p8F3mN1UzlRXSqIM5Wb2kKZ8pszo3rwBswg4gXaSv54Y0sCR969eG7b~Q902PXJOQMJKOg0y9akw0mWxyFSt6v6MRJIaOviKD2Q8pwO7P92ZsQ7OTPadFRkKJkEqGYtxOUpKbJpVEVbgUlpJbZFn43WD97x5qu2XaeDO45U1zgvbvUKvdbiF9CfyGiVK-sFP2JF8jsxhOaClhvj72IqkxNCJAL95Y8XZ3Kthxg__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)

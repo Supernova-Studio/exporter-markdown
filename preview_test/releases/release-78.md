@@ -23,25 +23,69 @@ And because this documentation is created using Supernova, let's look at how the
 
 With tables, you can show a lot of information quickly, and bring attention to the values instead of the visual representation. Great for long lists of tokens and overviews of styleguides in general.
 
+  
+Purple 700: rgb(107, 98, 204)  
+Purple 600: rgb(125, 115, 226)  
+Purple 500: rgb(141, 132, 237)  
+Purple 400: rgb(158, 149, 236)  
+Purple 300: rgb(192, 194, 243)  
+Purple 200: rgb(216, 216, 246)  
+
+
 ### Variant: 1 column
 
 1 column variant allows you to highlight detail of one specific token in its full glory:
+
+  
+Blue 700: rgb(58, 121, 189)  
+
 
 ### Variant: 2 columns
 
 2 column variant is great to highlight difference between foreground and background color!
 
+  
+primary.activeBackground: rgb(69, 62, 150)  
+primary.color: rgb(255, 255, 255)  
+
+
 ### Variant: 3 columns
 
 For the times when 2 is just not enough.
+
+  
+Green 500: rgb(120, 199, 103)  
+Blue 300: rgb(170, 210, 244)  
+Red 800: rgb(182, 64, 59)  
+
 
 ### Variant: 4 columns
 
 Similarly to table 4 column variant can accomodate lot of data and is ideal for long lists with lot of information.
 
+  
+**Token Group Palette / Pink**:    
+Pink 1100: rgb(40, 24, 33)  
+Pink 1000: rgb(79, 25, 48)  
+Pink 900: rgb(135, 38, 71)  
+Pink 800: rgb(164, 59, 91)  
+Pink 700: rgb(190, 68, 102)  
+Pink 600: rgb(207, 81, 124)  
+Pink 500: rgb(222, 99, 139)  
+Pink 400: rgb(238, 127, 173)  
+Pink 300: rgb(241, 155, 192)  
+Pink 200: rgb(244, 184, 212)  
+Pink 100: rgb(247, 220, 234)  
+Pink 0: rgb(251, 234, 242)  
+
+
 ### Bonus: Now with aliases!
 
 There were several improvements to how the data show in your styleguide, and we are also bringing something you asked for a lot - showing whether token is aliased or not. If the token is reference, additional information will be shown under the token for each of the rendering modes.
+
+  
+button.cta: rgb(58, 121, 189)  
+
 
 Voila, reference shows up right away!
 
@@ -78,6 +122,7 @@ Our design team worked tirelessly to show you what all was improved, here is the
 
 While isolated changes will not be noticable immediately, all of them result in much more readable, crisp documentation site that shouts out "polished", and that is what matters the most at the end.
 
+> Yay:  
 > Same overhaul  (but more drastical one) is coming for the editor part which many of you asked for, as we want to align the experience with what you get on the site when you publish it. Stay tuned, we definitely listen to this feedback!
 
 ## Search 2.0

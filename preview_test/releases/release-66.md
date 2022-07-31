@@ -15,28 +15,36 @@ Last but not least, we are *continuing our efforts on making everything snappier
 
 We have added one of the most requested features to the editor — *Tables*! Simply write `/table` and a new, fully configurable table will appear. Here is how tables can look:
 
+  
+| Column 1 | Column 2 | Column 3 | Column 4 |  
+| --- | --- | --- | --- |  
+| *Components* | *Figma Designs* | *React Implementation* | *iOS Implementation* |  
+| Button | ✅ | ✅ | ✅ |  
+| Textfield | ✅ | ✅ | 🚫 |  
+| Image View | ✅ | 🚫 | 🚫 |  
 
-
-Missing parser for block type Table
-
- 
 
 It is also possible to make tables which are much longer than the default size of the page. If the table extends beyond the border of the page, you can scroll it horizontally:
 
+  
+| Column 1 | Column 2 | Column 3 | Column 4 | Column 5 | Column 6 |  
+| --- | --- | --- | --- | --- | --- |  
+| *Components* | *Figma Designs* | *React Implementation* | *iOS Implementation* | *Accessibility Check* | *Version* |  
+| Button | ✅ | ✅ | ✅ | ✅ | 1.1 |  
+| Textfield | ✅ | ✅ | 🚫 | ✅ | 1.3 |  
+| Image View | ✅ | 🚫 | 🚫 | ✅ | 1.21 |  
 
-
-Missing parser for block type Table
-
- 
 
 Finally, tables can contain rich text content, including all possible formatting, and images - even combined together. More types of content will be available to you soon as well:
 
+  
+| Column 1 | Column 2 | Column 3 |  
+| --- | --- | --- |  
+| Design System Assets | *Static* | *Animated* |  
+| *Mountains* | ![Img](https://studio-assets.supernova.io/design-systems/6475/1d949b4c-4d95-48e5-a177-0ba5a5832556.webp?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1LzFkOTQ5YjRjLTRkOTUtNDhlNS1hMTc3LTBiYTVhNTgzMjU1Ni53ZWJwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxOTcyMjUyODAwfX19XX0_&Signature=eJ1LTXLK7QxYO4x0vEjsju-EijBzpAEF68RMJg1cFii6tSPMOEXB47uxpr-P9ML84LvV23AGPK6PaDv6QTZ2qavr9SfJigFbi74XhCd5Z7akJBGYso19o0oPmIK5iw~3nkE8gBQQ3ejlfZ~LHV~krlbtrqxZVO1j91pcrB0cxfNC8LBILCf2FY-XQcIOmAOXIDNUkKNmVmSSwoI0LvRAIFHOovitvshQ-CdQEFgknEUxV9RHaMpO-I6tZ1r5uA7bDgDfuM3nt8Rd89iNZD07fk2q7YvfjRw5wiXrH6kVMP2-w01Hi6-EACA1Vcu2hnP-9s7BqIeU~1fVWnW06i6Qcg__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA) | ![Img](https://studio-assets.supernova.io/design-systems/6475/6317fe1e-70ea-4c28-88d5-9cd8cf2adbf6.gif?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1LzYzMTdmZTFlLTcwZWEtNGMyOC04OGQ1LTljZDhjZjJhZGJmNi5naWYiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=f40gMymf0caMmROm5V575n9FDY1JHhEzb1-0l~tA4srQtw8pyIUYoh6JbE6OtWNy5b9wbCQ2b9Ofq3PLl04BN1Zu03gu-LVSh3qOPr4zhMp7U86M949Tztc9gsvKboOeUavTu3u70B8xGz7UNyeO~YNnl65Q7rUFA9rcgPQyarAs3vhKCWoGDsuGsYjxbCdydtaxoARnik4HAzJ8eLRfP0MhzDH~E2n2yh4Fe~vu0pzb7ACj2wWv6MF3ZAhdMpUhx-k9-H7Q6fNmcrzP4lWd6n3ztTkIPSGDnyPMUcLD3KvoTlI-P~idqJpfbRhkg1mMb2gvOoB7~Su-SkUIoHr85g__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA) |  
 
 
-Missing parser for block type Table
-
- 
-
+> Some extra info:  
 > Some of you might find some visual table features you've asked for missing — for instance it is currently not possible to change tables visually and hide/show borders, but worry not — there is another batch of upgrades coming to it next week which will add more options! We just didn't want to keep people waiting for it any longer :)
 
 ## Hardened security - IP Whitelisting!
@@ -45,6 +53,7 @@ You can now enable IP whitelisting to fine-tune who has access to your workspace
 
 ![Img](https://studio-assets.supernova.io/design-systems/6475/812fc42f-ff60-4d16-ab4e-41deca54a574.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1LzgxMmZjNDJmLWZmNjAtNGQxNi1hYjRlLTQxZGVjYTU0YTU3NC5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=YNkOmQc92dSwa12FAmptFdTev~mMMqO4hJLzVQRSP0SEnJ1d9Wy-bdfAhNwLScjpu1n5Rc5aWEkw5oeh4NNAMJQ1m4eA7mhMZ3VH6eRetiKQCUUq~rUHZmTsxy2dXVohd9X6BJGgjCvojeuztgJL2RzikiB3FVDb3DS4SG6mTvlKIC1yFgSXKow3s7ddKWfa3jSPKGuo4WPoz-ORgNFGv0NGx~53D-fjcbzzg0Rzw9Or0rhDRJdhSWgno0fdKAso26oEMPcQtf051Z1EJMe8YWZ9ufLcy8VPIV1uDHxZbZ1aCn44-t5RmpagCSg5P9rSS209BbG461X62s2Rczt4iA__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
 
+> Yay:  
 > This feature is available for all of our Company plan customers. [Contact us to learn more](sales@supernova.io)!
 
 ## Improved Exporter Packages
@@ -59,6 +68,7 @@ Additionally to all the changes made to the exporter package system listed above
 
 ![Img](https://studio-assets.supernova.io/design-systems/6475/b754e76b-0ec5-4b70-8b84-35194c2532ba.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1L2I3NTRlNzZiLTBlYzUtNGI3MC04Yjg0LTM1MTk0YzI1MzJiYS5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=kkxrKvrEFbIJK3BugPCs6SrKuORkj~Ptw8rdBvMJY-FN1uA40t--CilZ6uPsqTA6BNKPX~BI~T7QodncnAK2rqpeT4SuDNbHkQeIoWxP2AhhhsIyW0tmW7wa6rzYwYbu0o8KOR9XkadkeQQAmvHHrjvLop0hC8ktT1ARAoC9WOAQ-nLo4e-eML6Bnm6n7UEAZfJ7clD0fyDhuRZqq4P9i7FUHh5sFoFPsB63BO1uk6pPtL6zVokm-J2EUgl7WnKjFZD3ixyo8Q2tCBpHPWmTcpEd0PkpHctVTLRVDNLi7FoabBllwo4IIXmn70ceKVtQopN-ev0jcaAU5oTvuo4PmA__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
 
+> Yay:  
 > This feature is available for all Team and Company plan customers. For free plans, all exporters are from public repos. [Contact us to learn more](sales@supernova.io)!
 
 ## Public Docs switch
@@ -67,6 +77,7 @@ Team and Company plans are now able to switch between private and public docs di
 
 ![Img](https://studio-assets.supernova.io/design-systems/6475/969a990d-d0ab-4d13-bf40-7d841e72e62c.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1Lzk2OWE5OTBkLWQwYWItNGQxMy1iZjQwLTdkODQxZTcyZTYyYy5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=Ga7wOm0uANTiH0FMtmuQo3adKgQ7uhAjkjRJ4kd1avHJJjlAqGo-1mCV6BTxlaoueDfc7fvO0BlyXJonVBrho43rDGiZwwKlDrFBn1te1qUQ-X~65q1SZ6xiCqHuRrUGpW-V-k~43w3NmNYrD5d3vhXNe4ocayOTWmWiyYmmy8FjrRSCYc~yjzZ97XE75WfR4hoXGFJq6MaTEOw9rBOes~l6~Doq-mejIuwVOrT5wClsF5tyBxsyE1ui-JFcHpVwkEDdZ5kwuUrtIMoFvwjnMkZopJrb72iRAGQd92HiFm9gDr~uVKSctStXu~wzrtU3OfAM~Pn69i14gCSFyMf0Gw__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
 
+> Yay:  
 > This feature is available for all Team and Company plan customers. For free plans, all docs are private. [Contact us to find out more](sales@supernova.io)!
 
 ## Documentation CTA
@@ -145,96 +156,5 @@ This release brings many requested changes focused primarily on performance and 
 
 As always, if you would like to see something new, fixed or improved, join our [Discord community](https://community.supernova.io/) — we are always there. Thank you for your support!
 
+> Be warned:  
 > If you are using your own documentation exporter, you* must pull upstream changes* from our main exporter and merge them to your project in order to get new features and improvements, such as tables.
-
-*Components*
-
-*Figma Designs*
-
-*React Implementation*
-
-*iOS Implementation*
-
-Button
-
-✅
-
-✅
-
-✅
-
-Textfield
-
-✅
-
-✅
-
-🚫
-
-Image View
-
-✅
-
-🚫
-
-🚫
-
-*Components*
-
-*Figma Designs*
-
-*React Implementation*
-
-*iOS Implementation*
-
-*Accessibility Check*
-
-*Version*
-
-Button
-
-✅
-
-✅
-
-✅
-
-✅
-
-1.1
-
-Textfield
-
-✅
-
-✅
-
-🚫
-
-✅
-
-1.3
-
-Image View
-
-✅
-
-🚫
-
-🚫
-
-✅
-
-1.21
-
-Design System Assets
-
-*Static*
-
-*Animated*
-
-*Mountains*
-
-![Img](https://studio-assets.supernova.io/design-systems/6475/1d949b4c-4d95-48e5-a177-0ba5a5832556.webp?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1LzFkOTQ5YjRjLTRkOTUtNDhlNS1hMTc3LTBiYTVhNTgzMjU1Ni53ZWJwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxOTcyMjUyODAwfX19XX0_&Signature=eJ1LTXLK7QxYO4x0vEjsju-EijBzpAEF68RMJg1cFii6tSPMOEXB47uxpr-P9ML84LvV23AGPK6PaDv6QTZ2qavr9SfJigFbi74XhCd5Z7akJBGYso19o0oPmIK5iw~3nkE8gBQQ3ejlfZ~LHV~krlbtrqxZVO1j91pcrB0cxfNC8LBILCf2FY-XQcIOmAOXIDNUkKNmVmSSwoI0LvRAIFHOovitvshQ-CdQEFgknEUxV9RHaMpO-I6tZ1r5uA7bDgDfuM3nt8Rd89iNZD07fk2q7YvfjRw5wiXrH6kVMP2-w01Hi6-EACA1Vcu2hnP-9s7BqIeU~1fVWnW06i6Qcg__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
-
-![Img](https://studio-assets.supernova.io/design-systems/6475/6317fe1e-70ea-4c28-88d5-9cd8cf2adbf6.gif?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1LzYzMTdmZTFlLTcwZWEtNGMyOC04OGQ1LTljZDhjZjJhZGJmNi5naWYiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=f40gMymf0caMmROm5V575n9FDY1JHhEzb1-0l~tA4srQtw8pyIUYoh6JbE6OtWNy5b9wbCQ2b9Ofq3PLl04BN1Zu03gu-LVSh3qOPr4zhMp7U86M949Tztc9gsvKboOeUavTu3u70B8xGz7UNyeO~YNnl65Q7rUFA9rcgPQyarAs3vhKCWoGDsuGsYjxbCdydtaxoARnik4HAzJ8eLRfP0MhzDH~E2n2yh4Fe~vu0pzb7ACj2wWv6MF3ZAhdMpUhx-k9-H7Q6fNmcrzP4lWd6n3ztTkIPSGDnyPMUcLD3KvoTlI-P~idqJpfbRhkg1mMb2gvOoB7~Su-SkUIoHr85g__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)

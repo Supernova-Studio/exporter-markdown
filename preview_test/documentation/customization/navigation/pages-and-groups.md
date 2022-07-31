@@ -49,6 +49,7 @@ If the group is *not empty*:
 
 ![Img](https://studio-assets.supernova.io/design-systems/6475/f20c4b70-71d7-492c-b34d-b507d67c48f8.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1L2YyMGM0YjcwLTcxZDctNDkyYy1iMzRkLWI1MDdkNjdjNDhmOC5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=loO-UZI8pWukz2c--HbGQqLsyRzwiTKOW44tbM~nUDwpie3zFgu3iRjjItJ4ko86kI40RWcE-1PLnhcil749e6w2X708i3UbTimBtDetOWpwwO9hxjIJriXosiAe91KwKUuhTRIpeaQirvjuRhuvDL~s7nUKdUaustCckBDTQZnni7msf2M-ke31VhOxEGlLXmRpGYeDEOz0QGz4ZKdNxbx~mPzk5jD3S6uRcF1SRagCTobl8o2~EjAt78vEvhTMf9pXvlIknY~sTAsxBciLpiIarKGlL39gHJWAp8wkd76cUymMm2PC138I-QWhlj1Ug~NflgiHsTdXAuze2TLWng__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
 
+> Some extra info:  
 > A group containing content cannot be deleted, but it can be ungrouped and the contents moved.
 
 If the group is *empty*:

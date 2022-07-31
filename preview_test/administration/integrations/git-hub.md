@@ -15,6 +15,7 @@
 
 1. You can now use this GitHub account to automate pull requests using [Hooks](https://learn.supernova.io/code-integration/exporters/automating-code-delivery/hooks.html)
 
+> Some extra info:  
 > See also [Installing GitHub Apps](https://docs.github.com/en/developers/apps/managing-github-apps/installing-github-apps) in the GitHub docs
 
 ---
@@ -33,6 +34,7 @@
 
 ### Remove Supernova app from GitHub
 
+> Some extra info:  
 > See [Deleting a GitHub App](https://docs.github.com/en/developers/apps/managing-github-apps/deleting-a-github-app) in the GitHub docs
 
 ---

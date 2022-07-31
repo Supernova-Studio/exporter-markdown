@@ -15,6 +15,131 @@ We have added a new documentation block type — Tabs! Each of its tabs can cont
 
 *Tab Example - Variant "Tabs"*
 
+  
+**Overview**  
+### Description  
+Checkboxes allow the user to select one or more items from a set. Checkboxes can be used to turn an option on or off.  
+If you have multiple options appearing in a list, you can preserve space by using checkboxes instead of on/off switches. If you have a single option, avoid using a checkbox and use an on/off switch instead.  
+### Accessibility  
+(WAI-ARIA: [https://www.w3.org/TR/wai-aria-practices/#checkbox](https://www.w3.org/TR/wai-aria-practices/#checkbox))  
+- All form controls should have labels, and this includes radio buttons, checkboxes, and switches. In most cases, this is done by using the `<label>` element.  
+- When a label can't be used, it's necessary to add an attribute directly to the input component. In this case, you can apply the additional attribute (e.g. `aria-label`, `aria-labelledby`, `title`) via the `inputProps` prop.  
+  
+**Examples**  
+### Basic Checkboxes  
+Implementing basic checkboxes is very easy. You can also make them sized according to your spec!  
+  
+```javascript  
+import * as React from 'react';
+import Checkbox from '@mui/material/Checkbox';
+
+const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
+
+export default function SizeCheckboxes() {
+  return (
+    <div>
+      <Checkbox {...label} defaultChecked size="small" />
+      <Checkbox {...label} defaultChecked />
+      <Checkbox
+        {...label}
+        defaultChecked
+        sx={{ '& .MuiSvgIcon-root': { fontSize: 28 } }}
+      />
+    </div>
+  );
+}  
+```  
+### Form Group  
+`FormGroup` is a helpful wrapper used to group selection control components.  
+```javascript  
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import FormLabel from '@mui/material/FormLabel';
+import FormControl from '@mui/material/FormControl';
+import FormGroup from '@mui/material/FormGroup';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import FormHelperText from '@mui/material/FormHelperText';
+import Checkbox from '@mui/material/Checkbox';
+
+export default function CheckboxesGroup() {
+  const [state, setState] = React.useState({
+    gilad: true,
+    jason: false,
+    antoine: false,
+  });
+
+  const handleChange = (event) => {
+    setState({
+      ...state,
+      [event.target.name]: event.target.checked,
+    });
+  };
+
+  const { gilad, jason, antoine } = state;
+  const error = [gilad, jason, antoine].filter((v) => v).length !== 2;
+
+  return (
+    <Box sx={{ display: 'flex' }}>
+      <FormControl sx={{ m: 3 }} component="fieldset" variant="standard">
+        <FormLabel component="legend">Assign responsibility</FormLabel>
+        <FormGroup>
+          <FormControlLabel
+            control={
+              <Checkbox checked={gilad} onChange={handleChange} name="gilad" />
+            }
+            label="Gilad Gray"
+          />
+          <FormControlLabel
+            control={
+              <Checkbox checked={jason} onChange={handleChange} name="jason" />
+            }
+            label="Jason Killian"
+          />
+          <FormControlLabel
+            control={
+              <Checkbox checked={antoine} onChange={handleChange} name="antoine" />
+            }
+            label="Antoine Llorca"
+          />
+        </FormGroup>
+        <FormHelperText>Be careful</FormHelperText>
+      </FormControl>
+      <FormControl
+        required
+        error={error}
+        component="fieldset"
+        sx={{ m: 3 }}
+        variant="standard"
+      >
+        <FormLabel component="legend">Pick two</FormLabel>
+        <FormGroup>
+          <FormControlLabel
+            control={
+              <Checkbox checked={gilad} onChange={handleChange} name="gilad" />
+            }
+            label="Gilad Gray"
+          />
+          <FormControlLabel
+            control={
+              <Checkbox checked={jason} onChange={handleChange} name="jason" />
+            }
+            label="Jason Killian"
+          />
+          <FormControlLabel
+            control={
+              <Checkbox checked={antoine} onChange={handleChange} name="antoine" />
+            }
+            label="Antoine Llorca"
+          />
+        </FormGroup>
+        <FormHelperText>You can display an error</FormHelperText>
+      </FormControl>
+    </Box>
+  );
+}  
+```  
+
+
 ## Alternate Block Rendering
 
 We have added a new technology today that allows you to create *alternate rendering for blocks* when published. We are also today announcing the first block with built-in support for this technology - tab blocks. 
@@ -22,6 +147,131 @@ We have added a new technology today that allows you to create *alternate render
 As you can see above, tab blocks by default render as a horizontal menu with content underneath. However, using rendering variants, you can change how this block is rendered - sometimes quite drastically! Here is the same block, but with applied variant "Pills".
 
 *Tab Example - Variant "Pills"*
+
+  
+**Overview**  
+### Description  
+Checkboxes allow the user to select one or more items from a set. Checkboxes can be used to turn an option on or off.  
+If you have multiple options appearing in a list, you can preserve space by using checkboxes instead of on/off switches. If you have a single option, avoid using a checkbox and use an on/off switch instead.  
+### Accessibility  
+(WAI-ARIA: [https://www.w3.org/TR/wai-aria-practices/#checkbox](https://www.w3.org/TR/wai-aria-practices/#checkbox))  
+- All form controls should have labels, and this includes radio buttons, checkboxes, and switches. In most cases, this is done by using the `<label>` element.  
+- When a label can't be used, it's necessary to add an attribute directly to the input component. In this case, you can apply the additional attribute (e.g. `aria-label`, `aria-labelledby`, `title`) via the `inputProps` prop.  
+  
+**Examples**  
+### Basic Checkboxes  
+Implementing basic checkboxes is very easy. You can also make them sized according to your spec!  
+  
+```javascript  
+import * as React from 'react';
+import Checkbox from '@mui/material/Checkbox';
+
+const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
+
+export default function SizeCheckboxes() {
+  return (
+    <div>
+      <Checkbox {...label} defaultChecked size="small" />
+      <Checkbox {...label} defaultChecked />
+      <Checkbox
+        {...label}
+        defaultChecked
+        sx={{ '& .MuiSvgIcon-root': { fontSize: 28 } }}
+      />
+    </div>
+  );
+}  
+```  
+### Form Group  
+`FormGroup` is a helpful wrapper used to group selection control components.  
+```javascript  
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import FormLabel from '@mui/material/FormLabel';
+import FormControl from '@mui/material/FormControl';
+import FormGroup from '@mui/material/FormGroup';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import FormHelperText from '@mui/material/FormHelperText';
+import Checkbox from '@mui/material/Checkbox';
+
+export default function CheckboxesGroup() {
+  const [state, setState] = React.useState({
+    gilad: true,
+    jason: false,
+    antoine: false,
+  });
+
+  const handleChange = (event) => {
+    setState({
+      ...state,
+      [event.target.name]: event.target.checked,
+    });
+  };
+
+  const { gilad, jason, antoine } = state;
+  const error = [gilad, jason, antoine].filter((v) => v).length !== 2;
+
+  return (
+    <Box sx={{ display: 'flex' }}>
+      <FormControl sx={{ m: 3 }} component="fieldset" variant="standard">
+        <FormLabel component="legend">Assign responsibility</FormLabel>
+        <FormGroup>
+          <FormControlLabel
+            control={
+              <Checkbox checked={gilad} onChange={handleChange} name="gilad" />
+            }
+            label="Gilad Gray"
+          />
+          <FormControlLabel
+            control={
+              <Checkbox checked={jason} onChange={handleChange} name="jason" />
+            }
+            label="Jason Killian"
+          />
+          <FormControlLabel
+            control={
+              <Checkbox checked={antoine} onChange={handleChange} name="antoine" />
+            }
+            label="Antoine Llorca"
+          />
+        </FormGroup>
+        <FormHelperText>Be careful</FormHelperText>
+      </FormControl>
+      <FormControl
+        required
+        error={error}
+        component="fieldset"
+        sx={{ m: 3 }}
+        variant="standard"
+      >
+        <FormLabel component="legend">Pick two</FormLabel>
+        <FormGroup>
+          <FormControlLabel
+            control={
+              <Checkbox checked={gilad} onChange={handleChange} name="gilad" />
+            }
+            label="Gilad Gray"
+          />
+          <FormControlLabel
+            control={
+              <Checkbox checked={jason} onChange={handleChange} name="jason" />
+            }
+            label="Jason Killian"
+          />
+          <FormControlLabel
+            control={
+              <Checkbox checked={antoine} onChange={handleChange} name="antoine" />
+            }
+            label="Antoine Llorca"
+          />
+        </FormGroup>
+        <FormHelperText>You can display an error</FormHelperText>
+      </FormControl>
+    </Box>
+  );
+}  
+```  
+
 
 *Customization and providing your own rendering modes*
 
@@ -138,47 +388,3 @@ We have also fixed the following bugs:
 - Pressing Shift + Tab in a docs block no longer leaves you in a state with both selected blocks and text caret blinking.
 
 As always, if you would like see something new, fixed or improved, join our [Discord community](https://community.supernova.io/) - we are always there. Thank you for your support!
-
-### Description
-
-Checkboxes allow the user to select one or more items from a set. Checkboxes can be used to turn an option on or off.
-
-If you have multiple options appearing in a list, you can preserve space by using checkboxes instead of on/off switches. If you have a single option, avoid using a checkbox and use an on/off switch instead.
-
-### Accessibility
-
-(WAI-ARIA: [https://www.w3.org/TR/wai-aria-practices/#checkbox](https://www.w3.org/TR/wai-aria-practices/#checkbox))
-
-- All form controls should have labels, and this includes radio buttons, checkboxes, and switches. In most cases, this is done by using the `<label>` element.
-
-- When a label can't be used, it's necessary to add an attribute directly to the input component. In this case, you can apply the additional attribute (e.g. `aria-label`, `aria-labelledby`, `title`) via the `inputProps` prop.
-
-### Basic Checkboxes
-
-Implementing basic checkboxes is very easy. You can also make them sized according to your spec!
-
-### Form Group
-
-`FormGroup` is a helpful wrapper used to group selection control components.
-
-### Description
-
-Checkboxes allow the user to select one or more items from a set. Checkboxes can be used to turn an option on or off.
-
-If you have multiple options appearing in a list, you can preserve space by using checkboxes instead of on/off switches. If you have a single option, avoid using a checkbox and use an on/off switch instead.
-
-### Accessibility
-
-(WAI-ARIA: [https://www.w3.org/TR/wai-aria-practices/#checkbox](https://www.w3.org/TR/wai-aria-practices/#checkbox))
-
-- All form controls should have labels, and this includes radio buttons, checkboxes, and switches. In most cases, this is done by using the `<label>` element.
-
-- When a label can't be used, it's necessary to add an attribute directly to the input component. In this case, you can apply the additional attribute (e.g. `aria-label`, `aria-labelledby`, `title`) via the `inputProps` prop.
-
-### Basic Checkboxes
-
-Implementing basic checkboxes is very easy. You can also make them sized according to your spec!
-
-### Form Group
-
-`FormGroup` is a helpful wrapper used to group selection control components.

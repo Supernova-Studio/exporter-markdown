@@ -69,10 +69,20 @@ To delete a workspace:
 
 1. Click `*Confirm*`
 
+> Be warned:  
 > Workspaces can only be deleted by the owner
 
+> Please note:  
 > *Note: *Deleting a workspace is permanent and cannot be undone
 
 ---
 
 ## In this section
+
+  
+[![Team management](https://studio-assets.supernova.io/design-systems/6475/40711500-f20d-42ba-bb3e-53631b3e301d.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1LzQwNzExNTAwLWYyMGQtNDJiYS1iYjNlLTUzNjMxYjNlMzAxZC5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=V63FtYj8WXCd6kdc8TQweReGyX8Nw15WyLINJ05CYaYffkb4-oAyH8vsNQOnHQW3kZjJpbUF53Acyxx9yt~akX64Fl4H5ybK~d~m1Bnnfm9fdKfDTH1eRFO8vN14uqUrP1Xhdz5vcNMCMAArayIV9ur3rPYudzZQbeCieEOMKroTHq~IeIom8yWaMiYU1KMsBoqdnzYl3MWStoAhxhW3ghz8ZkX~B6I5OR2VAJxk-50zOaT7OsoWjI8aYCpaWssAVB0XpvSdgeVo~E2n6N3mBft1UOMEPvH8nb4L7KdBHwpuNRvRxUp3hPQBXc7MZP1fsnNf1jSE5Ja3jXhfuVXzfg__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)](#)  
+Team management  
+  
+[![Plans and billing](https://studio-assets.supernova.io/design-systems/6475/30304ef1-e199-4dfb-bb7e-526b9940931f.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1LzMwMzA0ZWYxLWUxOTktNGRmYi1iYjdlLTUyNmI5OTQwOTMxZi5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=X7Cklo666dZzakNXAtUGiif1rkcS1Uh0WKbutK0GYWMssSCltEp94iODarKCr1dWYjA449tBLypTq5Ze9JmiphQfcENtJhiDTgwfFeuNIIXpLHwrijMMYzg3Ttqw1SsWXOxaTb4II7IROhehNqCqB--oI29hf3KgAb26Wj-h0YBZveaSkBbh2nlqr5kIWW37jO98Sc~pI3p6LaMcbBZ4-hSYNGhlzbX9JkzZg6kQU7i7H86KWzl0P0zKLnhhFUyviqgOH0pZnwDeyFq7HwKtPBGT39ONmFtAQRCkjm1VTQm-nI6L1WS-0r3yaHilMivqybIFa5IEeu6ClZPOUWpJQg__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)](#)  
+Plans and billing  
+  

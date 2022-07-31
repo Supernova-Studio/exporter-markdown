@@ -15,6 +15,7 @@ We have added another integration — GitLab! You are now able to link your GitL
 
 ![Img](https://studio-assets.supernova.io/design-systems/6475/64eb30f0-db8d-483b-85de-4b8a761a05e7.png?Expires=1972252800&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdHVkaW8tYXNzZXRzLnN1cGVybm92YS5pby9kZXNpZ24tc3lzdGVtcy82NDc1LzY0ZWIzMGYwLWRiOGQtNDgzYi04NWRlLTRiOGE3NjFhMDVlNy5wbmciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE5NzIyNTI4MDB9fX1dfQ__&Signature=gi0M-c~CIufdjdsgtluWbvJyzuKS6SFnVWDglcPJpO3nbSEellX7op3UOaKYYdY6WW-UXNpV3PCZAkeIcBuo9ed-r08wYD84CtkW0rE7tikpnrJOc10zifNybozDrPNpWnesR4c0s4xow9c93nIRQlrdCXhjMqNyezIhgjA3nsGVepnUIT2AawP0scdLs5NBr0bZtPNHBWRp2s48zESiEQAL5O6n0BlVzsDhi6Qy8vepy~dDnsiWOvTstExNStVJfZhBQ5YyGa6bYW-eFifYzH6XeKEufjURc67EEGUAbGYHiK30V5FH90yp9dksUNLg0825zKC8TsR96vaA2Rd6xA__&Key-Pair-Id=APKAJGK34LCCAUR7N6LA)
 
+> Yay:  
 > If are hosting GitLab yourself on your own server, you are able to authenticate using your personal access token created in your own self-hosted GitLab.
 
 ## Custom CSS

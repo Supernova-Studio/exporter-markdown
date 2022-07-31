@@ -11,12 +11,14 @@ Every time the event specified in the hook happens inside the design system, you
 
 The exporter will run every time a new version of a design system is released.
 
+> Some extra info:  
 > This is a recommended setting when you use Supernova in production environments and you have a more mature design system with semantic versioning, to always keep your codebase up to date with the stable, polished version.
 
 ### Head changed
 
 Supernova will run the exporter every time anything changes in your design system, with a short buffer window so you don't get overwhelmed with updates.
 
+> Some extra info:  
 > This is useful for cases where you are experimenting with a design system, and you want to be pushing updates constantly to be always up to date with your design system data.
 
 ### Source updated

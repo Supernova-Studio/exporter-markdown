@@ -21,4 +21,5 @@
 
 1. Type *Delete* and click *`Confirm`*
 
+> Be warned:  
 > *Note ->* An account cannot be deleted if it is the owner of a workspace. To delete your account, first transfer or delete the workspaces listed

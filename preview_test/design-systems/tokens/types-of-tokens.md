@@ -13,8 +13,10 @@ A color token defines a color used in your design system. It can be defined as a
 
 A color token value is the color itself, regardless of format, so multiple formats can be used and displayed in your design system for different purposes (i.e. `HEX` and `RGB`).
 
+> Yay:  
 > Color tokens can be imported directly from your Figma design system file
 
+> Be warned:  
 > *A note on multi-layer fills — *currently, multi-layer fills imported into Supernova are flattened into a single color / gradient token.
 
 ---
@@ -33,6 +35,7 @@ Typography tokens contain the information for an entire font style. They are a b
 
 - `paragraph-spacing`, `paragraph-indent`, `letter-spacing`, `case` (transform), and `decoration`
 
+> Yay:  
 > Typography tokens can be imported directly from your Figma design system file
 
 ---
@@ -63,8 +66,10 @@ A gradient token defines a gradient within your design system.
 
 - Token value: `radial-gradient(#f69d3c, #3f87a6)`
 
+> Yay:  
 > Gradient tokens can be imported directly from your Figma design system file
 
+> Be warned:  
 > *A note on multi-layer fills —* currently, multi-layer fills imported into Supernova are flattened into a single color / gradient token.
 
 ---
@@ -95,6 +100,7 @@ Shadow tokens have a type (`inner` or `drop`) and can consist of `color`, `x`, `
 
 - Token value: `2px 2px 2px 1px rgba(0, 0, 0, 0.2)`
 
+> Yay:  
 > Shadow tokens can be imported directly from your Figma design system file
 
 ---

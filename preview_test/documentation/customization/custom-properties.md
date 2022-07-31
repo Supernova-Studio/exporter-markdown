@@ -25,6 +25,7 @@ Here, you can make changes to the exporter that will appear in your published do
 
 1. Publish the documentation to see the new property values applied
 
+> Yay:  
 > Upgrade to *Company* plan to use custom documentation exporters
 
 ---
