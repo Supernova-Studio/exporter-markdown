@@ -6,7 +6,7 @@
         },
         {
             "invoke": "readme_page.pr",
-            "write_to": "readme.md",
+            "write_to": "README.md",
             "comment": "Create entrypoint for the documentation. Will link to all other pages inside the docs"
         }
     ],
