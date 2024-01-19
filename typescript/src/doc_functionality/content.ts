@@ -13,23 +13,26 @@ export function contentTree(groups: Array<DocumentationGroup>, pages: Array<Docu
     let items = new Array<{title: string, url: string | undefined, offset: number, type: "page" | "group"}>()
 
     for (let group of groups) {
-        if (group.isRoot) {
-            continue
-        }
         let level = -2 // We want to remove root, and we are also rendering all "master" groups as headers, hence -2 so the actual offset starts from 0
         let parent = group.parent
         while (parent) {
             level++
             parent = parent.parent
         }
-        
-        // Add group link
-        items.push({
-            title: group.title,
-            url: pageUrl(group, prefix),
-            offset: level,
-            type: "group"
-        })
+
+        let pageLevel = level;
+
+        if (!group.isRoot) {
+            // Add group link
+            items.push({
+                title: group.title,
+                url: pageUrl(group, prefix),
+                offset: level,
+                type: "group"
+            })
+
+            pageLevel += 1
+        }
 
         // Add pages
         for (let child of group.children) {
@@ -38,7 +41,7 @@ export function contentTree(groups: Array<DocumentationGroup>, pages: Array<Docu
                 items.push({
                     title: page.title,
                     url: pageUrl(page, prefix),
-                    offset: level + 1,
+                    offset: pageLevel,
                     type: "page"
                 })
             }
