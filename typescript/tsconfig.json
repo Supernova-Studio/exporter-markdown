@@ -1,14 +1,12 @@
 {
-  "compilerOptions": {
-    "esModuleInterop": true,
-    "target": "es6",
-    "outDir": "build",
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "strictNullChecks": true,
-    "skipLibCheck": true,
-    "typeRoots": [
-      "./node_modules/@types"
-    ]
-  }
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "target": "es6",
+        "outDir": "build",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "strictNullChecks": true,
+        "skipLibCheck": true,
+        "typeRoots": ["./node_modules/@types"]
+    }
 }
